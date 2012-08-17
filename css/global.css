@@ -1,0 +1,20 @@
+
+#panoInfo { clear:left; margin:10px 0 0 0; }
+
+img { min-height:100%; }
+
+.overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
+
+.model {  }
+#columnModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+#tunnelModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+#theatreModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+
+.map_content_wrap { padding:20px 0 20px 0; }
+.map_content_wrap li { display:block; float:left; margin:0 20px 0 0; }
+
+
+/* MAIN LAYOUT */
+
+.wrap { width:100%; min-height:100%; position:relative; }
+

@@ -15,51 +15,27 @@
 	</head>
 		
 	<body onload="initialize()">
-
-
-      <div class="map_content_wrap">
-      <ul>
-        <li><a class="startPosition" href="#" data="40.748447, 14.489013999999997">Position 1</a></li>
-        <li><a class="startPosition" href="#" data="tunnel">Position 2</a></li>
-        <li><a class="startPosition" href="#" data="theatre">Position 3</a></li>
-      </ul>
-    </div>
-
-
-
 	  <div class="overlay">
         <span class="close" style="font-size:24px; color:#fff; font-weight:bold;">X</span>
     </div>
-     <div id="toggle"><input type="button" id="streetview_click" value="Toggle Street View"></input></div>
+
 
     <div id="columnModal" class="modal"><img src="assets/images/bar.jpg" width="500"/></div>
 		<div id="tunnelModal" class="modal"><img src="assets/images/bank.jpg" width="500"/></div>
 		<div id="theatreModal" class="modal"><img src="assets/images/panorama.jpg" width="500"/></div>
     
-    <div id="ministreetview" style="width:200px; height:200px;"></div>
-    <div id="map_canvas" style="width: 1024px; height: 400px"></div>
-    <div id="pano" style="width: 1024px; height: 400px"></div>
+    <div class="maps_container">
+      <div id="map_canvas" style="width:400px; height:300px; position:absolute; bottom:0px; right:0px; z-index:100; border:1px solid #fff;"></div>
+      
+      <div id="pano" style="width:1280px; height:768px;"></div>
 
-    
-
-  
-
-    <div id="panoInfo" style="width:425px; height:240px; float:left">
-      <table>
-        <tr>
-          <td><b>Position</b></td><td id="position_cell">&nbsp;</td>
-        </tr>
-        <tr>
-          <td><b>POV Heading</b></td><td id="heading_cell">0</td>
-        </tr>
-        <tr>
-          <td><b>POV Pitch</b></td><td id="pitch_cell">0.0</td>
-        </tr>
-        <tr>
-          <td><b>Pano ID</b></td><td id="pano_cell">&nbsp;</td>
-        </tr>
-        <table id="links_table"></table>
-      </table>
+      <div class="jumpmarker_container">
+          <ul>
+            <li><a href="#" class="jumpmarker" style="cursor:pointer;" data="tunnel">Position 1</a></li>
+           
+          </ul>
+      </div>
     </div>
+
   </body>
 </html>

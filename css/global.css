@@ -11,10 +11,18 @@ img { min-height:100%; }
 #theatreModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
 
 .map_content_wrap { padding:20px 0 20px 0; }
-.map_content_wrap li { display:block; float:left; margin:0 20px 0 0; }
+.map_content_wrap 
 
 
 /* MAIN LAYOUT */
 
 .wrap { width:100%; min-height:100%; position:relative; }
 
+
+.maps_container { width:1280px; position:relative; }
+
+
+.jumpmarker_container { width:880px; background:#777; position:absolute; bottom:0px; left:0px; z-index:200; }
+.jumpmarker_container ul li { width:100px; height:100px; display:block; float:left; margin:0 20px 0 0; }
+
+.map_canvas { width:400px; height:400px; } 

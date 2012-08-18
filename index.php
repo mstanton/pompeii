@@ -31,9 +31,13 @@
 
       <div class="jumpmarker_container">
           <ul>
+            <li><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></li>
+            <li><a href="#" id="jumpBath" location="bath">Bath House</a></li>
+            <li><a href="#" id="jumpDio" location="dio">House of Diomedes</a></li>
             <li><a href="#" id="jumpOne" location="theatre">Tunnel</a></li>
             <li><a href="#" id="jumpTwo" location="column">Theatre</a></li>
             <li><a href="#" id="jumpThree" location="tunnel">Column</a></li>
+
           </ul>
       </div>
     </div>

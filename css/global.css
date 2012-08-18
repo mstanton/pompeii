@@ -23,6 +23,7 @@ img { min-height:100%; }
 
 
 .jumpmarker_container { width:880px; background:#777; position:absolute; bottom:0px; left:0px; z-index:200; }
-.jumpmarker_container ul li { width:100px; height:100px; display:block; float:left; margin:0 20px 0 0; }
+.jumpmarker_container ul li { width:100px; height:100px; display:inline; float:left; margin:0 20px 0 0; }
 
 .map_canvas { width:400px; height:400px; } 
+

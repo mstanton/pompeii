@@ -31,8 +31,9 @@
 
       <div class="jumpmarker_container">
           <ul>
-            <li><a href="#" class="jumpmarker" style="cursor:pointer;" data="tunnel">Position 1</a></li>
-           
+            <li><a href="#" id="jumpOne" location="theatre">Tunnel</a></li>
+            <li><a href="#" id="jumpTwo" location="column">Theatre</a></li>
+            <li><a href="#" id="jumpThree" location="tunnel">Column</a></li>
           </ul>
       </div>
     </div>

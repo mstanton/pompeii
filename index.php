@@ -1,3 +1,5 @@
+<?php require(dirname(__FILE__)."/lib/php/tweets.php"); ?>
+<?php require(dirname(__FILE__)."/lib/php/storify.php"); ?>
 <!doctype html>
 <html>
 	<head>
@@ -18,45 +20,31 @@
 	  <div class="overlay">
         <span class="close" style="font-size:24px; color:#fff; font-weight:bold;">X</span>
     </div>
+    <div class="header">HEADER</div>
     <div class="sidebar">
-      <div class="about_container">
-          <p>Lorem Ipsum</p>
+      <div class="tab_controls">
+        <div class="tab"><a href="#" data="about">About</a></div>
+        <div class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
+        <div class="tab"><a href="#" data="social">Social Feed</a></div>
       </div>
-      <div class="tweet_container">
-        <?php
-  function latest_tweets(){
-  //global $post;
-  $doc = new DOMDocument();
-  $meta='mrstanton';
-  $feed = "http://twitter.com/statuses/user_timeline/$meta.rss"; 
-  $doc->load($feed); 
-
-    $outer = '<ul id="tweets">';
-    $max_tweets = 15;
-    $i = 1;
-    foreach ($doc->getElementsByTagName('item') as $node) {
-    $tweet = $node->getElementsByTagName('title')->item(0)->nodeValue;
-    //if you want to remove the userid before the tweets then uncomment the next line.
-    //$tweet = substr($tweet, stripos($tweet, ':') + 1);   
-    $tweet = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', 
-        '<a href="$1">$1</a>', $tweet);
-    $tweet = preg_replace("/@([0-9a-zA-Z]+)/", 
-        "<a href=\"http://twitter.com/$1\">@$1</a>", 
-        $tweet);
-   
-    $outer .= "<li>". $tweet . "</li>\n";
-    
-   
-    if($i++ >= $max_tweets) break;
-    }
-     $outer .= "</ul>\n";
-    return "<div class='post'>".$outer."</div>";
-  }
-  echo latest_tweets();
-  ?>
-
+      <div class="about tab_content">
+        <p>Lorem Ipsum</p>
       </div>
-      <div class="social_container"></div>
+      <div class="twitter tab_content">
+        <div class="pliny">
+          <p>avatar image</p>
+          <a href="https://twitter.com/elderpliny" class="twitter-follow-button" data-show-count="false">Follow @elderpliny</a>
+          <!-- official twitter follow button -->
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <p>@elderpliny</p>
+          <h3>Pliny the Elder</h3>
+          <p>Lorem ipsum.......</p>
+        </div>
+        <?php echo latest_tweets(); ?>
+      </div>
+      <div class="social tab_content">
+        <?php //echo getStory(); ?>
+      </div>
     </div>
 
     <div id="columnModal" class="modal"><img src="assets/images/bar.jpg" width="500"/></div>
@@ -64,22 +52,24 @@
 		<div id="theatreModal" class="modal"><img src="assets/images/panorama.jpg" width="500"/></div>
     
     <div class="maps_container">
-      <div id="map_canvas" style="width:400px; height:300px; position:absolute; bottom:0px; right:0px; z-index:100; border:1px solid #fff;"></div>
+      <div id="map_canvas" style="width:280px; height:280px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
       
-      <div id="pano" style="width:1280px; height:768px;"></div>
-
+      <div id="pano" style="width:1000px; height:768px;"></div>
+      <div class="jumpmarker_wrap">
       <div class="jumpmarker_container">
           <ul>
-            <li><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></li>
-            <li><a href="#" id="jumpBath" location="bath">Bath House</a></li>
-            <li><a href="#" id="jumpDio" location="dio">House of Diomedes</a></li>
-            <li><a href="#" id="jumpOne" location="theatre">Tunnel</a></li>
-            <li><a href="#" id="jumpTwo" location="column">Theatre</a></li>
-            <li><a href="#" id="jumpThree" location="tunnel">Column</a></li>
-
+            <div><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></div>
+            <div><a href="#" id="jumpBath" location="bath">Bath House</a></div>
+            <div><a href="#" id="jumpDio" location="dio">House of Diomedes</a></div>
+            <div><a href="#" id="jumpOne" location="theatre">Tunnel</a></div>
+            <div><a href="#" id="jumpTwo" location="column">Theatre</a></div>
+            <!--<div><a href="#" id="jumpThree" location="tunnel">Column</a></div>-->          
           </ul>
       </div>
+      </div>
     </div>
-
+    <div class="footer">
+      FOOTER
+    </div>
   </body>
 </html>

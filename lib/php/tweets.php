@@ -19,7 +19,7 @@
         "<a href=\"http://twitter.com/$1\">@$1</a>", 
         $tweet);
    
-    $outer .= '<li id="tweet_'.$i.'" class="tweet">'. $tweet . '</li>';
+    $outer .= '<li data="tweet_'.$i.'" class="tweet">'. $tweet . '</li>';
     
    
     if($i++ >= $max_tweets) break;

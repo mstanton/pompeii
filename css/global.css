@@ -1,5 +1,5 @@
 body { }
-img { min-height:100%; }
+
 
 .overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
 
@@ -25,8 +25,11 @@ img { min-height:100%; }
 #tweets li { display:block; width:270px; min-height:45px; margin:0; padding:0 5px 0px 5px; font-size:12px; }
 .sidebar .social { display:none; }
 
+/* tweet modal */
+#columnModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+.tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
 
-
+/* map content */
 .maps_container { width:1000px; left:280px; position:relative; }
 .map_canvas { width:400px; height:400px; } 
 

@@ -13,7 +13,7 @@
     <script type="text/javascript" src="lib/js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">	
-    <script type="text/javascript" src="lib/js/load.js"></script>
+    <script type="text/javascript" src="lib/js/load.js"></script> 
 	</head>
 		
 	<body onload="initialize()">
@@ -28,7 +28,7 @@
         <div class="tab"><a href="#" data="social">Social Feed</a></div>
       </div>
       <div class="about tab_content">
-        <p>Lorem Ipsum</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
       </div>
       <div class="twitter tab_content">
         <div class="pliny">
@@ -38,18 +38,47 @@
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           <p>@elderpliny</p>
           <h3>Pliny the Elder</h3>
-          <p>Lorem ipsum.......</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, 
+            blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent 
+            libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse 
+            elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. 
+            Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum 
+            dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl 
+            non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
         </div>
         <?php echo latest_tweets(); ?>
       </div>
       <div class="social tab_content">
-        <?php //echo getStory(); ?>
+        <?php echo getStory(); ?>
       </div>
     </div>
 
     <div id="columnModal" class="modal"><img src="assets/images/bar.jpg" width="500"/></div>
 		<div id="tunnelModal" class="modal"><img src="assets/images/bank.jpg" width="500"/></div>
 		<div id="theatreModal" class="modal"><img src="assets/images/panorama.jpg" width="500"/></div>
+
+
+    <div id="tweetModalOne" class="tweet_modal">
+        <p>Tweet text goes here.</p>
+        <p>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" count="false" text="Tweet text goes here...">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </p>
+        <div>
+          <img src="assets/images/bar.jpg" width="300"/>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, 
+          blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. 
+          Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. 
+          Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit 
+          viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, 
+          quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, 
+          sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
+    </div>
+    <div id="tweetModalTwo" class="tweet_modal"></div>
+    <div id="tweetModalThree" class="tweet_modal"></div>
+    <div id="tweetModalFour" class="tweet_modal"></div>
+    <div id="tweetModalFive" class="tweet_modal"></div>
     
     <div class="maps_container">
       <div id="map_canvas" style="width:280px; height:280px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>

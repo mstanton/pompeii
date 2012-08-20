@@ -16,9 +16,9 @@ body { }
 
 .wrap { width:100%; min-height:100%; position:relative; }
 
-.header, .footer { width:1280px; height:100px; background:#777;}
+.header, .footer { width:1280px; height:70px; background:#777;}
 
-.sidebar { width:280px; height:700px; position:absolute; z-index:300; }
+.sidebar { width:264px; height:700px; position:absolute; z-index:300; }
 .sidebar .tab-controls li { float:left; }
 .sidebar .twitter { display:none; }
 .sidebar .twitter .pliny { margin:0 0 10px 0; }
@@ -34,7 +34,7 @@ body { }
 .map_canvas { width:400px; height:400px; } 
 
 .jumpmarker_wrap { width:720px; }
-.jumpmarker_container { width:720px; background:#ccc; position:absolute; bottom:0px; left:0px; z-index:200; }
+.jumpmarker_container { width:720px; height:65px;  background:#eee;  position:absolute; bottom:0px; left:0px; z-index:200; }
 .jumpmarker_container div { display:block; width:100px; height:100px; display:inline; margin:0 20px 0 0;  }
 
 

@@ -80,9 +80,9 @@
     <div id="tweetModalFive" class="tweet_modal"></div>
     
     <div class="maps_container">
-      <div id="map_canvas" style="width:280px; height:280px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
+      <div id="map_canvas" style="width:280px; height:200px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
       
-      <div id="pano" style="width:1000px; height:768px;"></div>
+      <div id="pano" style="width:1000px; height:600px;"></div>
       <div class="jumpmarker_wrap">
       <div class="jumpmarker_container">
           <ul>

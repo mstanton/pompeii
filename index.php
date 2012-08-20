@@ -99,5 +99,55 @@
     <div class="footer">
       FOOTER
     </div>
+
+
+
+  <div id="carousel">
+
+
+  
+  <div class="clear"></div>
+
+  <div id="slides"> 
+    <ul>
+      <li>SLIDE 1</li>
+      <li>SLIDE 2</li>
+      <li>SLIDE 3</liv>
+      <li>SLIDE 4</li>
+      <li>SLIDE 5</li>
+      <li>SLIDE 6</li>
+      <li>SLIDE 7</li>
+      <li>SLIDE 8</li>
+      <li>SLIDE 9</li>
+      <li>SLIDE 10</li>
+      <li>SLIDE 11</li>
+      <li>SLIDE 12</li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+    <div id="buttons">
+    <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
+    <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
+    <div class="clear"></div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>

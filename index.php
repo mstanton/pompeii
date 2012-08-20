@@ -30,8 +30,8 @@
       <div class="about tab_content">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
       </div>
-      <div class="twitter tab_content">
-        <div class="pliny">
+      <div class="twitter tab_content" style="overflow:hidden; overflow-y: scroll; ">
+        <div class="pliny" style="height:580px; ">
           <p>avatar image</p>
           <a href="https://twitter.com/elderpliny" class="twitter-follow-button" data-show-count="false">Follow @elderpliny</a>
           <!-- official twitter follow button -->
@@ -43,8 +43,9 @@
             libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse 
             elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. 
             </p>
+            <?php echo latest_tweets(); ?>
         </div>
-        <?php echo latest_tweets(); ?>
+        
       </div>
       <div class="social tab_content">
         <?php echo getStory(); ?>
@@ -83,54 +84,42 @@
       <div id="map_canvas" style="width:280px; height:200px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
       
       <div id="pano" style="width:1000px; height:600px;"></div>
-      <div class="jumpmarker_wrap">
-      <div class="jumpmarker_container">
-          <ul>
-            <div><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></div>
-            <div><a href="#" id="jumpBath" location="bath">Bath House</a></div>
-            <div><a href="#" id="jumpDio" location="dio">House of Diomedes</a></div>
-            <div><a href="#" id="jumpOne" location="theatre">Tunnel</a></div>
-            <div><a href="#" id="jumpTwo" location="column">Theatre</a></div>
-            <!--<div><a href="#" id="jumpThree" location="tunnel">Column</a></div>-->          
-          </ul>
+      <div class="jumpmarker_wrap">  
+        <div id="carousel" class="jumpmarker_container">
+          <div id="slides"> 
+            <ul>
+              <li><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></li>
+              <li><a href="#" id="jumpBath" location="bath">Bath House</a></li>
+              <li><a href="#" id="jumpDio" location="dio">House of Diomedes</a></liv>
+              <li><a href="#" id="jumpOne" location="tunnel">Tunnel</a></li>
+              <li><a href="#" id="jumpTwo" location="theatre">Theatre</a></li>
+              <li><a href="#" id="jumpThree" location="column">Column</a></li>
+              <li>SLIDE 7</li>
+              <li>SLIDE 8</li>
+              <li>SLIDE 9</li>
+              <li>SLIDE 10</li>
+              <li>SLIDE 11</li>
+              <li>SLIDE 12</li>
+            </ul>
+          </div>
+        </div>
       </div>
+      <div class="buttons">
+          <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
+          <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
       </div>
-    </div>
+  </div>
+
+
+
+
+
+
+    <div class="clear"></div>
+
     <div class="footer">
       FOOTER
     </div>
-
-
-
-  <div id="carousel">
-
-
-  
-  <div class="clear"></div>
-
-  <div id="slides"> 
-    <ul>
-      <li>SLIDE 1</li>
-      <li>SLIDE 2</li>
-      <li>SLIDE 3</liv>
-      <li>SLIDE 4</li>
-      <li>SLIDE 5</li>
-      <li>SLIDE 6</li>
-      <li>SLIDE 7</li>
-      <li>SLIDE 8</li>
-      <li>SLIDE 9</li>
-      <li>SLIDE 10</li>
-      <li>SLIDE 11</li>
-      <li>SLIDE 12</li>
-    </ul>
-    <div class="clear"></div>
-  </div>
-    <div id="buttons">
-    <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
-    <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
-    <div class="clear"></div>
-  </div>
-
 </div>
 
 

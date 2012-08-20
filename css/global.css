@@ -1,5 +1,5 @@
 body { }
-
+.clear { clear:both; }
 
 #overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
 
@@ -18,7 +18,7 @@ body { }
 
 .header, .footer { width:1280px; height:70px; background:#777;}
 
-.sidebar { width:264px; height:700px; position:absolute; z-index:300; }
+.sidebar { width:280px; height:700px; position:absolute; z-index:300; }
 .sidebar .tab-controls li { float:left; }
 .sidebar .twitter { display:none; }
 .sidebar .twitter .pliny { margin:0 0 10px 0; }
@@ -27,29 +27,28 @@ body { }
 
 /* tweet modal */
 #columnModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
-.tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
+.tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%; left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
 
 /* map content */
 .maps_container { width:1000px; left:280px; position:relative; }
 .map_canvas { width:400px; height:400px; } 
 
-.jumpmarker_wrap { width:720px; }
+.jumpmarker_wrap { width:720px; overflow:hidden; }
 .jumpmarker_container { width:720px; height:65px;  background:#eee;  position:absolute; bottom:0px; left:0px; z-index:200; }
 .jumpmarker_container div { display:block; width:100px; height:100px; display:inline; margin:0 20px 0 0;  }
 
 
 /* JUMP SLIDER */
 #carousel {
-	width:700px;
-	height:290px;	
+	width:1000px;
+	height:100px;	
 	margin:0 auto;
-
+	overflow:hidden;
 }
 
 #slides {
 	/* fix ie overflow issue */
 	position:relative;
-	width:700px;
 	height:100px;
 	border:1px solid #ccc;
 	overflow:hidden;
@@ -70,16 +69,17 @@ body { }
 	width:100px;
 	height:100px;	
 	float:left;
+	white-space:nowrap;
 }
 
 
 /* Styling for prev and next buttons */
-#buttons {
+.buttons {
 
-	float:left;
+	position:relative;
 }
 
-#buttons a {
+.buttons a {
 	display:block; 
 	width:31px; 
 	height:32px;

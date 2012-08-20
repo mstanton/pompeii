@@ -17,7 +17,7 @@
 	</head>
 		
 	<body onload="initialize()">
-	  <div class="overlay">
+	  <div id="overlay">
         <span class="close" style="font-size:24px; color:#fff; font-weight:bold;">X</span>
     </div>
     <div class="header">HEADER</div>
@@ -42,9 +42,7 @@
             blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent 
             libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse 
             elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. 
-            Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum 
-            dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl 
-            non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
+            </p>
         </div>
         <?php echo latest_tweets(); ?>
       </div>
@@ -59,6 +57,7 @@
 
 
     <div id="tweetModalOne" class="tweet_modal">
+        <a href="#" id="tweetClose">CLOSE</a>
         <p>Tweet text goes here.</p>
         <p>
           <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" count="false" text="Tweet text goes here...">Tweet</a>

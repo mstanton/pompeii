@@ -24,7 +24,8 @@
       <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
       
 
-    <div class="footer">
+
+      <div class="sidebar">
       <div class="tab_controls">
                 <div class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
                 <div class="tab"><a href="#" data="locations">Locations</a></div>
@@ -51,30 +52,27 @@
       </div>
 
 
-
       <div class="locations tab_content">
-        <div class="buttons">
-          <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
-          <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
-        </div>
+
       
-        <div id="carousel" class="jumpmarker_container">
-          <div id="slides"> 
+        <div class="jumpmarker_container">
+
             <ul>
-              <li><a href="#" id="jump_riot" location="riot">Riot Ampitheatre</a></li>
               <li><a href="#" id="jump_bath" location="bath">Bath House</a></li>
               <li><a href="#" id="jump_dio" location="dio">House of Diomedes</a></liv>
-              <li><a href="#" id="jump_tunnel" location="tunnel">Tunnel</a></li>
-              <li><a href="#" id="jump_theatre" location="theatre">Theatre</a></li>
-              <li><a href="#" id="jump_column" location="column">Column</a></li>
-              <li>SLIDE 7</li>
-              <li>SLIDE 8</li>
-              <li>SLIDE 9</li>
-              <li>SLIDE 10</li>
-              <li>SLIDE 11</li>
-              <li>SLIDE 12</li>
+              <li><a href="#" id="jump_palestra" location="palestra">Palestra Grande</a></li>
+              <li><a href="#" id="jump_nocera" location="nocera">Porta Nocera</a></li>
+              <li><a href="#" id="jump_venus" location="venus">The House of Venus in a Shell</li>
+              <li><a href="#" id="jump_ampitheatre" location="ampitheatre">Amphitheatre</li>
+              <li><a href="#" id="jump_menander" location="menander">House of Menander</li>
+              <li><a href="#" id="jump_vesu" location="vesu">Mount Vesuvius</li>
+              <li><a href="#" id="jump_misenum" location="misenum">Misenum</li>
+              <li><a href="#" id="jump_pompeiiOne" location="pompeiiOne">Pompeii 1st Location</li>
+              <li><a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">Pompeii 2nd Location</li>
+              <li><a href="#" id="jump_oplontis" location="oplontis">Oplontis</li>
+              <li><a href="#" id="jump_stabea" location="stabea">Stabea</li>
             </ul>
-          </div>
+
         </div>
         </div>
 
@@ -82,16 +80,23 @@
 
 
 
-      <!-- coverage/storify tab -->
-      <div class="coverage tab_content">
-        <?php echo getStory(); ?>
-      </div>
+        <!-- coverage/storify tab -->
+        <div class="coverage tab_content">
+          <?php echo getStory(); ?>
+        </div>
 
-      <!-- about this site -->
-      <div class="about tab_content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
-      </div>
-
+        <!-- about this site -->
+        <div class="about tab_content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut 
+            sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur 
+            tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat 
+            sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus 
+            dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis 
+            malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, 
+            vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed 
+            pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
+        </div>
+        <div>
     </div>
 
     </body>

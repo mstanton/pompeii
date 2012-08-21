@@ -16,7 +16,7 @@
     <script type="text/javascript" src="lib/js/load.js"></script> 
 	</head>
 		
-	<body onload="initialize()">
+	<body>
 	  <div id="overlay"></div>
 
       <div id="pano" style="height:75%;"></div>

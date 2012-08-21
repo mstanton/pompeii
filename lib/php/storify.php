@@ -1,8 +1,7 @@
 <?php
 function getStory() {
-$data = json_decode(file_get_contents('http://api.storify.com/v1/stories/mrstanton/pompeii-storify'));
+$data = json_decode(file_get_contents('http://api.storify.com/v1/stories/Elder_Pliny/a-day-in-pompeii'));
 echo '<img src="'.$data->content->thumbnail.'" width="50" height="50"/><br/>';
-
 
 
 foreach ( $data->content->elements as $elements )

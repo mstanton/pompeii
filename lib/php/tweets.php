@@ -11,7 +11,7 @@
     foreach ($doc->getElementsByTagName('item') as $node) {
       $tweet = $node->getElementsByTagName('title')->item(0)->nodeValue;
       
-      $tweet = substr($tweet, stripos($tweet, ':') + 1);   // removes the userid before the tweets
+      //$tweet = substr($tweet, stripos($tweet, ':') + 1);   // removes the userid before the tweets
       $tweet = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', '<a href="$1">$1</a>', $tweet);
       $tweet = preg_replace("/@([0-9a-zA-Z]+)/", "<a href=\"http://twitter.com/$1\">@$1</a>", $tweet);
      

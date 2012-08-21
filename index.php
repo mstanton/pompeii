@@ -2,36 +2,41 @@
 <?php require(dirname(__FILE__)."/lib/php/storify.php"); ?>
 <!doctype html>
 <html>
-	<head>
+  <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>test street view</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
- 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
     <script type="text/javascript" src="lib/js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/global.css">	
+    <link rel="stylesheet" type="text/css" href="css/global.css"> 
     <script type="text/javascript" src="lib/js/load.js"></script> 
-	</head>
-		
-	<body onload="initialize()">
-	  <div id="overlay">
-        <span class="close" style="font-size:24px; color:#fff; font-weight:bold;">X</span>
-    </div>
-    <div class="header">HEADER</div>
-    <div class="sidebar">
+  </head>
+    
+  <body>
+    <div class="top"></div>
+     
+    <div id="overlay"></div>
+
+    <div class="maps_container" style="height:100%;">
+      <div id="pano" style="height:867px;"></div>
+      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:13%; right:0px; z-index:300; border:1px solid #fff;"></div>
+    </div> 
+
+
+      <div class="sidebar">
       <div class="tab_controls">
-        <div class="tab"><a href="#" data="about">About</a></div>
         <div class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
-        <div class="tab"><a href="#" data="social">Social Feed</a></div>
+        <div class="tab"><a href="#" data="locations">Locations</a></div>
+        <div class="tab"><a href="#" data="coverage">Coverage</a></div>
       </div>
-      <div class="about tab_content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
-      </div>
+      
+      <!-- twitter tab -->
       <div class="twitter tab_content" style="overflow:hidden; overflow-y: scroll; ">
-        <div class="pliny" style="height:580px; ">
+        <div class="pliny">
           <p>avatar image</p>
           <a href="https://twitter.com/elderpliny" class="twitter-follow-button" data-show-count="false">Follow @elderpliny</a>
           <!-- official twitter follow button -->
@@ -45,99 +50,46 @@
             </p>
             <?php echo latest_tweets(); ?>
         </div>
-        
       </div>
-      <div class="social tab_content">
-        <?php echo getStory(); ?>
-      </div>
-    </div>
-
-    <div id="columnModal" class="modal"><img src="assets/images/bar.jpg" width="500"/></div>
-		<div id="tunnelModal" class="modal"><img src="assets/images/bank.jpg" width="500"/></div>
-		<div id="theatreModal" class="modal"><img src="assets/images/panorama.jpg" width="500"/></div>
 
 
-    <div id="tweetModalOne" class="tweet_modal">
-        <a href="#" id="tweetClose">CLOSE</a>
-        <p>Tweet text goes here.</p>
-        <p>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" count="false" text="Tweet text goes here...">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </p>
-        <div>
-          <img src="assets/images/bar.jpg" width="300"/>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, 
-          blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. 
-          Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. 
-          Suspendisse elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit 
-          viverra euismod. Nullam convallis eros nec felis malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, 
-          quam lorem interdum dolor, vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, 
-          sed pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
-    </div>
-    <div id="tweetModalTwo" class="tweet_modal"></div>
-    <div id="tweetModalThree" class="tweet_modal"></div>
-    <div id="tweetModalFour" class="tweet_modal"></div>
-    <div id="tweetModalFive" class="tweet_modal"></div>
-    
-    <div class="maps_container">
-      <div id="map_canvas" style="width:280px; height:200px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
+      <div class="locations tab_content">
+
       
-      <div id="pano" style="width:1000px; height:600px;"></div>
-      <div class="jumpmarker_wrap">  
-              <div class="buttons">
-          <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
-          <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
-      </div>
-        <div id="carousel" class="jumpmarker_container">
-          <div id="slides"> 
+        <div class="jumpmarker_container">
+
             <ul>
-              <li><a href="#" id="jump_riot" location="riot">Riot Ampitheatre</a></li>
               <li><a href="#" id="jump_bath" location="bath">Bath House</a></li>
               <li><a href="#" id="jump_dio" location="dio">House of Diomedes</a></liv>
-              <li><a href="#" id="jump_tunnel" location="tunnel">Tunnel</a></li>
-              <li><a href="#" id="jump_theatre" location="theatre">Theatre</a></li>
-              <li><a href="#" id="jump_column" location="column">Column</a></li>
-              <li>SLIDE 7</li>
-              <li>SLIDE 8</li>
-              <li>SLIDE 9</li>
-              <li>SLIDE 10</li>
-              <li>SLIDE 11</li>
-              <li>SLIDE 12</li>
+              <li><a href="#" id="jump_palestra" location="palestra">Palestra Grande</a></li>
+              <li><a href="#" id="jump_nocera" location="nocera">Porta Nocera</a></li>
+              <li><a href="#" id="jump_venus" location="venus">The House of Venus in a Shell</li>
+              <li><a href="#" id="jump_ampitheatre" location="ampitheatre">Amphitheatre</li>
+              <li><a href="#" id="jump_menander" location="menander">House of Menander</li>
+              <li><a href="#" id="jump_vesu" location="vesu">Mount Vesuvius</li>
+              <li><a href="#" id="jump_misenum" location="misenum">Misenum</li>
+              <li><a href="#" id="jump_pompeiiOne" location="pompeiiOne">Pompeii 1st Location</li>
+              <li><a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">Pompeii 2nd Location</li>
+              <li><a href="#" id="jump_oplontis" location="oplontis">Oplontis</li>
+              <li><a href="#" id="jump_stabea" location="stabea">Stabea</li>
             </ul>
-          </div>
+
         </div>
-      </div>
-
-  </div>
+        </div>
 
 
 
 
 
+        <!-- coverage/storify tab -->
+        <div class="coverage tab_content">
+          <?php echo getStory(); ?>
+        </div>
 
-    <div class="clear"></div>
-
-    <div class="footer">
-      FOOTER
+        <div>
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
-</html>
+    <div class="footer">
+      &nbsp;
+    </div>
+    </body>
+    </html>

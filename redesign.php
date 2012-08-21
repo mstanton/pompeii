@@ -19,23 +19,22 @@
 	<body>
 	  <div id="overlay"></div>
 
-      <div id="pano" style="height:75%;"></div>
-
-      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
-      
+    <div class="maps_container" style="height:100%;">
+      <div id="pano" style="height:90%;"></div>
+      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:13%; right:0px; z-index:300; border:1px solid #fff;"></div>
+    </div> 
 
 
       <div class="sidebar">
       <div class="tab_controls">
-                <div class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
-                <div class="tab"><a href="#" data="locations">Locations</a></div>
-                <div class="tab"><a href="#" data="coverage">Coverage</a></div>
-                <div class="tab"><a href="#" data="about">About This Site</a></div>
+        <div class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
+        <div class="tab"><a href="#" data="locations">Locations</a></div>
+        <div class="tab"><a href="#" data="coverage">Coverage</a></div>
       </div>
       
       <!-- twitter tab -->
       <div class="twitter tab_content" style="overflow:hidden; overflow-y: scroll; ">
-        <div class="pliny" style="height:580px; ">
+        <div class="pliny">
           <p>avatar image</p>
           <a href="https://twitter.com/elderpliny" class="twitter-follow-button" data-show-count="false">Follow @elderpliny</a>
           <!-- official twitter follow button -->
@@ -85,17 +84,6 @@
           <?php echo getStory(); ?>
         </div>
 
-        <!-- about this site -->
-        <div class="about tab_content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut 
-            sagittis vitae, blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur 
-            tempus ultrices lorem et egestas. Praesent libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat 
-            sodales eros, sed rhoncus odio hendrerit sed. Suspendisse elementum augue sit amet enim congue eu tincidunt risus 
-            dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. Nullam convallis eros nec felis 
-            malesuada vel iaculis arcu sagittis. Mauris rutrum, augue sit amet rutrum vulputate, quam lorem interdum dolor, 
-            vel auctor nunc lectus ut est. Ut bibendum, purus sit amet sagittis accumsan, risus libero ultricies odio, sed 
-            pretium sem nisl non nunc. Curabitur vitae nunc ut neque euismod bibendum.</p>
-        </div>
         <div>
     </div>
 

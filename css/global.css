@@ -1,4 +1,5 @@
 html, body { height:100%; }
+body { background:url('../assets/images/background.jpg') no-repeat top center #000;}
 .clear { clear:both; }
 
 #overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
@@ -30,7 +31,7 @@ html, body { height:100%; }
 .tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%; left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
 
 /* map content */
-.maps_container { width:1000px; left:280px; position:relative; }
+.maps_container { position:relative; margin:20px 0 0 0; }
 
 
 

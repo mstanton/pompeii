@@ -1,4 +1,4 @@
-body { }
+html, body { height:100%; }
 .clear { clear:both; }
 
 #overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
@@ -8,7 +8,7 @@ body { }
 #tunnelModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
 #theatreModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
 
-.map_content_wrap { padding:20px 0 20px 0; }
+
 
 
 
@@ -16,7 +16,7 @@ body { }
 
 .wrap { width:100%; min-height:100%; position:relative; }
 
-.header, .footer { width:1280px; height:70px; background:#777;}
+
 
 .sidebar { width:280px; height:700px; position:absolute; z-index:300; }
 .sidebar .tab-controls li { float:left; }
@@ -31,10 +31,9 @@ body { }
 
 /* map content */
 .maps_container { width:1000px; left:280px; position:relative; }
-.map_canvas { width:400px; height:400px; } 
 
 .jumpmarker_wrap { width:720px; overflow:hidden; }
-.jumpmarker_container { width:720px; height:65px;  background:#eee;  position:absolute; bottom:0px; left:0px; z-index:200; }
+.jumpmarker_container { width:720px; height:65px;  background:#eee; }
 .jumpmarker_container div { display:block; width:100px; height:100px; display:inline; margin:0 20px 0 0;  }
 
 
@@ -42,7 +41,6 @@ body { }
 #carousel {
 	width:1000px;
 	height:100px;	
-	margin:0 auto;
 	overflow:hidden;
 }
 
@@ -74,20 +72,27 @@ body { }
 
 
 /* Styling for prev and next buttons */
-.buttons {
 
-	position:relative;
-}
 
 .buttons a {
 	display:block; 
 	width:31px; 
 	height:32px;
-
-	float:left;
 	outline:0;
 	margin:10px 5px 0 0;
 }
+
+
+
+
+/* REDESIGN */
+
+.tab-controls li { float:left; }
+
+.twitter li { display:block; width:270px; min-height:45px; margin:0; padding:0 5px 0px 5px; font-size:12px; }
+.about { display:none; }
+.coverage { display:none; }
+.locations { display:none; }
 
 
 

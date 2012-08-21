@@ -85,15 +85,19 @@
       
       <div id="pano" style="width:1000px; height:600px;"></div>
       <div class="jumpmarker_wrap">  
+              <div class="buttons">
+          <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
+          <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
+      </div>
         <div id="carousel" class="jumpmarker_container">
           <div id="slides"> 
             <ul>
-              <li><a href="#" id="jumpRiot" location="riot">Riot Ampitheatre</a></li>
-              <li><a href="#" id="jumpBath" location="bath">Bath House</a></li>
-              <li><a href="#" id="jumpDio" location="dio">House of Diomedes</a></liv>
-              <li><a href="#" id="jumpOne" location="tunnel">Tunnel</a></li>
-              <li><a href="#" id="jumpTwo" location="theatre">Theatre</a></li>
-              <li><a href="#" id="jumpThree" location="column">Column</a></li>
+              <li><a href="#" id="jump_riot" location="riot">Riot Ampitheatre</a></li>
+              <li><a href="#" id="jump_bath" location="bath">Bath House</a></li>
+              <li><a href="#" id="jump_dio" location="dio">House of Diomedes</a></liv>
+              <li><a href="#" id="jump_tunnel" location="tunnel">Tunnel</a></li>
+              <li><a href="#" id="jump_theatre" location="theatre">Theatre</a></li>
+              <li><a href="#" id="jump_column" location="column">Column</a></li>
               <li>SLIDE 7</li>
               <li>SLIDE 8</li>
               <li>SLIDE 9</li>
@@ -104,10 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="buttons">
-          <a href="#" id="prev" style="background:#000; color:#fff;">prev</a>
-          <a href="#" id="next" style="background:#0f0; color:#fff;">next</a>
-      </div>
+
   </div>
 
 

@@ -21,7 +21,7 @@
 
       <div id="pano" style="height:75%;"></div>
 
-      <div id="map_canvas" style="width:480px; height:300px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
+      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:0px; right:0px; z-index:300; border:1px solid #fff;"></div>
       
 
     <div class="footer">

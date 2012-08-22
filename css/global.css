@@ -14,10 +14,10 @@ body { background:url('../assets/images/background.jpg') no-repeat top left #000
 
 
 /* MAIN LAYOUT */
-.footer { width:100%; height:115px; }
+.footer { width:100%; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
 
 
-.sidebar { width:317px; height:706px; position:absolute; z-index:200; top:180px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; } 
+.sidebar { width:317px; height:590px; position:absolute; z-index:200; top:180px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; } 
 .sidebar { background-size:317px 100%; }
 .sidebar .twitter { display:none; }
 .sidebar .twitter .pliny { margin:0 0 10px 0; }
@@ -29,7 +29,7 @@ body { background:url('../assets/images/background.jpg') no-repeat top left #000
 .tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%; left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
 
 /* map content */
-.maps_container { position:relative; margin:20px 0 0 317px; height:867px; }
+.maps_container { position:relative; margin:20px 0 0 317px; height:865px; }
 
 
 

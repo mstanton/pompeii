@@ -2,28 +2,28 @@
 <?php require(dirname(__FILE__)."/lib/php/storify.php"); ?>
 <!doctype html>
 <html>
-  <head>
+	<head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>test street view</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
     <script type="text/javascript" src="lib/js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/global.css"> 
+    <link rel="stylesheet" type="text/css" href="css/global.css">	
     <script type="text/javascript" src="lib/js/load.js"></script> 
-  </head>
-    
-  <body>
+	</head>
+		
+	<body>
     <div class="top"></div>
-     
+	   
     <div id="overlay"></div>
 
-    <div class="maps_container">
-      <div id="pano" style="height:750px;"></div>
-      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:17%; right:2%; z-index:300; border:1px solid #fff;"></div>
+    <div class="maps_container" style="height:100%;">
+      <div id="pano" style="height:867px;"></div>
+      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:13%; right:0px; z-index:300; border:1px solid #fff;"></div>
     </div> 
 
 
@@ -89,7 +89,7 @@
         <div>
     </div>
     <div class="footer">
-      Some footer text
+      &nbsp;
     </div>
     </body>
     </html>

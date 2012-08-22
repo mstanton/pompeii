@@ -1,5 +1,4 @@
 <?php
-
 	$file = "feed.rss";
 
 	unlink($myFile);

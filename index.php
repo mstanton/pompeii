@@ -14,7 +14,7 @@
     <script type="text/javascript" src="lib/js/jquery.tinyscrollbar.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
-
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
     <script type="text/javascript" src="lib/js/load.js"></script> 
   </head>
     
@@ -35,14 +35,9 @@
     <!-- ARTIFACT MODALS -->
     
 
-    Bath House
-
-    Bathing was an important activity for the ancient Romans. It was part of the daily regimen for men of all classes, and many women as well. We think of bathing as a very private activity conducted in the home, but bathing in Rome was a communal activity, conducted for the most part in public facilities that in some ways resembled modern spas or health clubs.
-
     <!-- LOCATION MODALS -->
-    <div id="dioModal" class="modal">
+    <div id="dioModal" class="modal location">
       <div class="close"></div>
-      <!-- <img src="assets/images/img_holder_overlay.jpg" width="406" height="566" alt="place holder" style="float:left;"/> -->
       <div class="detail">
         <h3>House of Diomedes</h3>
         <p>
@@ -60,9 +55,8 @@
       </div>
     </div>
 
-    <div id="bathModal" class="modal">
+    <div id="bathModal" class="modal location">
       <div class="close"></div>
-      <!-- <img src="assets/images/img_holder_overlay.jpg" width="406" height="566" alt="place holder" style="float:left;"/> -->
       <div class="detail">
         <h3>Bath House</h3>
         <p>
@@ -74,11 +68,22 @@
     </div>
 
 
-    <div id="palestraModal" class="modal">
+    <div id="palestraModal" class="modal location">
       <div class="close"></div>
-      <!-- <img src="assets/images/img_holder_overlay.jpg" width="406" height="566" alt="place holder" style="float:left;"/> -->
       <div class="detail">
         <h3>Palestra Grande</h3>
+        <p>
+          The Large Palaestra (exercise ground) is located next to the Amphitheatre at the far southeastern corner of Pompeii. It was 
+          surrounded by a colonnaded portico on three sides and measured 141 x 107 meters. The swimming pool at the center of the Palaestra 
+          was continuously supplied with fresh water flowing through the public aqueduct. 
+        </p>
+      </div>
+    </div>
+
+    <div id="noceraModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Porta Nocera</h3>
         <p>
           Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
           Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
@@ -87,7 +92,114 @@
       </div>
     </div>
 
+    <div id="venusModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>The House of Venus in a Shell</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
 
+    <div id="amptheatreModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>House of Venus in a Shell</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>    
+
+    <div id="menanderModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>House of Menander</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+
+    <div id="vesuModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Mount Vesuvius</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>    
+
+    <div id="misenumModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Misenum</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+
+    <div id="pompeiiOneModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Pompeii</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+
+    <div id="pompeiiTwoModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Pompeii</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+
+    <div id="oplontisModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Oplontis</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+
+    <div id="stabeaModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Stabea</h3>
+        <p>
+          Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. 
+          Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis 
+          porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+        </p>
+      </div>
+    </div>
+  <!-- // END MODALS -->
 
  
 
@@ -138,7 +250,6 @@
       </div>
 
       <div id="locations_tab_container" class="locations tab_content">
-        <div class="clear"></div>
         <div class="jumpmarker_container">
             <ul>
               <li>
@@ -159,7 +270,7 @@
               </li>
               <li>
                 <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                <a href="#" id="jump_venus" location="venus">The House of Venus in a Shell</a>
+                <a href="#" id="jump_venus" location="venus">House of Venus in a Shell</a>
               </li>
               <li>
                 <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
@@ -210,7 +321,7 @@
       <p><a href="#">Privacy Policy</a>  /  Conditions of Use Copyright © Denver Museum of Nature &amp; Science. All rights reserved.</p>
     </div>
 
-       <!-- // END MODALS -->
+
         <div class="social_buttons">
         <ul>
           <li>

@@ -1,5 +1,5 @@
 html, body { height:100%; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:11px; }
-a { color:#cfb348; text-decoration:none; }
+a { color:#cfb348; text-decoration:none; outline:0; }
 body { background:url('../assets/images/background.jpg') no-repeat top left #000; }
 h3 { font-size:24px; color:#cfb348; }
 .clear { clear:both; }
@@ -17,11 +17,13 @@ h3 { font-size:24px; color:#cfb348; }
 .modal .detail { float:left; width:459px; } 
 .modal .close { width:20px; height:19px; background:url('../assets/buttons/btn_close.png') no-repeat; cursor: pointer; display:block; float:right; }
 
+.modal.location { width:560px; position:absolute; top:25%; left:50%; margin:0 -280px 0 -280px; z-index:99999; display:none;}
+
 /* map content */
 .maps_container { position:relative; margin:20px 0 0 317px; height:855px; }
 
 /* sidebar */
-.sidebar { width:317px; height:688px; padding:20px 0 0 15px; position:absolute; z-index:200; top:175px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; overflow:hidden; } 
+.sidebar { width:317px; height:688px; padding:20px 0 0 15px; position:absolute; z-index:200; top:175px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; } 
 
 
 /* tabs */
@@ -30,22 +32,25 @@ h3 { font-size:24px; color:#cfb348; }
 
 
 #about-tab { width:48px; height:36px; background:url('../assets/buttons/btn_about_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
-#about-tab a { display:block; width:48px; height:36px; margin:0 0 0 12px; }
+#about-tab a { display:block; width:48px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #pliny-tab { width:96px; height:36px; background:url('../assets/buttons/btn_pliny_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
-#pliny-tab a { display:block; width:96px; height:36px; margin:0 0 0 12px; }
+#pliny-tab a { display:block; width:96px; height:36px; margin:0 0 0 7px; color:#bab2a9; font-weight:bold; }
 #locations-tab { width:69px; height:36px; background:url('../assets/buttons/btn_location_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
-#locations-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; }
+#locations-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #coverage-tab { width:69px; height:36px; background:url('../assets/buttons/btn_coverage_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px; }
-#coverage-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; }
+#coverage-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #about-tab:hover { width:48px; height:36px; background:url('../assets/buttons/btn_about_OVER.png') no-repeat; cursor:pointer; }
 #pliny-tab:hover { width:96px; height:36px; background:url('../assets/buttons/btn_pliny_OVER.png') no-repeat; cursor:pointer; }
 #locations-tab:hover { width:69px; height:36px; background:url('../assets/buttons/btn_location_OVER.png') no-repeat; cursor:pointer; }
 #coverage-tab:hover { width:69px; height:36px; background:url('../assets/buttons/btn_coverage_OVER.png') no-repeat; cursor:pointer; }
 
 .twitter {}
-.about { display:none; padding:0 25px 0 10px; }
+.about { display:none; padding:0 45px 0 10px; }
 .coverage { display:none; }
 .locations { display:none; }
+
+
+.locations a { color:#fff; }
 
 /* twitter tab */
 .twitter { padding:0 25px 0 15px; }
@@ -59,8 +64,8 @@ h3 { font-size:24px; color:#cfb348; }
 
 /* location tab */
 .jumpmarker_container { padding:0 25px 0 10px; }
-.jumpmarker_container ul { margin:0 0 0 10px;}
-.jumpmarker_container li { float:left; margin:0 60px 0 0; }
+.jumpmarker_container ul { margin:0 0 0 20px;}
+.jumpmarker_container li { float:left; margin:0 60px 0 0; text-align:center; padding:10px 0 0 0; }
 .jumpmarker_container li a { display:block; width:70px; height:50px; }
 
 

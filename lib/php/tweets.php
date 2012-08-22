@@ -2,7 +2,7 @@
   function latest_tweets(){
     //global $post;
     $doc = new DOMDocument();
-    $feed = "http://localhost:8888/pompeii/lib/php/feed.rss"; 
+    $feed = "lib/php/feed.rss"; 
     $doc->load($feed); 
 
     $outer = '<ul id="tweets">';

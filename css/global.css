@@ -1,37 +1,28 @@
-html, body { height:100%; }
+html, body { height:100%; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:11px; }
+a { color:#cfb348; text-decoration:none; }
 body { background:url('../assets/images/background.jpg') no-repeat top left #000; }
 .clear { clear:both; }
 
 #overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
 
-.model {  }
 #columnModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
-#tunnelModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
-#theatreModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
-
-
-
 
 
 /* MAIN LAYOUT */
-.footer { width:100%; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
-
-
-.sidebar { width:317px; height:590px; position:absolute; z-index:200; top:180px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; } 
+.sidebar { width:317px; height:708px; padding:20px 0 0 0; position:absolute; z-index:200; top:175px; left:0px; background:url('../assets/images/bg_sidebar.jpg') no-repeat; } 
 .sidebar { background-size:317px 100%; }
-.sidebar .twitter { display:none; }
-.sidebar .twitter .pliny { margin:0 0 10px 0; }
 
 
+.sidebar .pliny .pliny_detail { width:160px; float:left; }
+.sidebar .pliny .pliny_detail p { font-size:11px; margin:0 0 10px 0; }
+.sidebar .pliny .pliny_detail h3 { font-size:24px; color:#cfb348; }
 
-/* tweet modal */
-#columnModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
-.tweet_modal { width:500px; height:500px; background:#fff; position:absolute; top:10%; left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
+
+/* modal */
+.modal { width:500px; height:500px; background:#fff; position:absolute; top:10%; left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none;}
 
 /* map content */
 .maps_container { position:relative; margin:20px 0 0 317px; height:865px; }
-
-
 
 
 
@@ -41,10 +32,21 @@ body { background:url('../assets/images/background.jpg') no-repeat top left #000
 /* tabs */
 .tab-controls li { float:left; }
 
-.twitter li {  }
+.twitter {}
 .about { display:none; }
 .coverage { display:none; }
 .locations { display:none; }
 
 
+.footer { width:630px; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
+.footer img { float:left;  margin:10px 10px 0 7px;}
+.footer p { margin:37px 0 0 0;}
+.footer { font-size:10px; }
+.footer a { color:#fff; text-decoration:none; }
 
+
+/* twitter tab */
+.twitter { padding:0 25px 0 25px; }
+.twitter img { float:left; margin:0 15px 0 0; }
+.tweets_container { margin:20px 0 0 0; }
+.tweets_container li { margin:0 0 20px 0; }

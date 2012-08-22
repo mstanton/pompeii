@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>test street view</title>
+    <title>A Day In Pompeii - The Last XXIV Hours</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -22,8 +22,8 @@
     <div id="overlay"></div>
 
     <div class="maps_container">
-      <div id="pano" style="height:750px;"></div>
-      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:17%; right:2%; z-index:300; border:1px solid #fff;"></div>
+      <div id="pano" style="height:862px;"></div>
+      <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:3%; right:2%; z-index:300; border:1px solid #fff;"></div>
     </div> 
 
 
@@ -37,18 +37,16 @@
       <!-- twitter tab -->
       <div class="twitter tab_content" style="overflow:hidden; overflow-y: scroll; ">
         <div class="pliny">
-          <p>avatar image</p>
-          <a href="https://twitter.com/elderpliny" class="twitter-follow-button" data-show-count="false">Follow @elderpliny</a>
-          <!-- official twitter follow button -->
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          <p>@elderpliny</p>
+          <img src="assets/images/pliny.jpg" width="" height="" alt="Pliny the Elder"/>
+          
+          <div class="pliny_detail">
+          <p><a href="#">@elderpliny</a></p>
           <h3>Pliny the Elder</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam mi. Fusce enim tortor, imperdiet ut sagittis vitae, 
-            blandit sit amet dolor. Pellentesque eu diam velit. Vestibulum ut laoreet arcu. Curabitur tempus ultrices lorem et egestas. Praesent 
-            libero nulla, dignissim eu vehicula at, dapibus non orci. Nunc feugiat sodales eros, sed rhoncus odio hendrerit sed. Suspendisse 
-            elementum augue sit amet enim congue eu tincidunt risus dictum. Donec ut leo tortor. Curabitur pretium venenatis elit viverra euismod. 
-            </p>
-            <?php echo latest_tweets(); ?>
+          <p>Roman scholar, encyclopedist, nationalist, and commander of the Roman fleet at Misenum.</p>
+        </div>
+            <div class="tweets_container">
+              <?php echo latest_tweets(); ?>
+            </div>
         </div>
       </div>
 
@@ -89,7 +87,9 @@
         <div>
     </div>
     <div class="footer">
-      Some footer text
+      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
+     <p><a href="#">Privacy Policy</a>  /  Conditions of Use Copyright © Denver Museum of Nature &amp; Science. All rights reserved.
+<a href="http://www.VisitDenver.com">www.VisitDenver.com</a> is the official source for destination and visitor information.</p>
     </div>
     </body>
     </html>

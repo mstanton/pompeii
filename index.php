@@ -11,29 +11,32 @@
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
     <script type="text/javascript" src="lib/js/map.js"></script>
-    <script type="text/javascript" src="lib/js/jquery.tinyscrollbar.min.js"></script>
-        <script type="text/javascript" src="lib/js/load.js"></script> 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
-    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <script type="text/javascript" src="lib/js/load.js"></script> 
 
   </head>
     
   <body>
     <!-- CREDITS MODAL -->
-    <div id="credits" class="modal">
-      <p>This exhibit is based on the design and presentation developed by the Gulf Coast Exploreum, 
-      the Science Museum of Minnesota, the San Diego Natural History Museum, and Discovery Place. 
-      Organized by Soprintendenza Speciale per i Beni Archeologici di Napoli e Pompei. </p>
-
-      <p>Artifact Photo Credits:</p>
+    <div id="creditsModal" class="modal">
+      <h3>Artifact Photo Credits:</h3>
       <ul>
-        <li>William Starling, photographer.</li>
-        <li>Artifact descriptions: The Complete Pompeii. Thames &amp; Hudson: New York. 2007.</li>
+        <li><p>William Starling, photographer.</p></li>
+        <li><p>Artifact descriptions: The Complete Pompeii. Thames &amp; Hudson: New York. 2007.</p></li>
       </ul>
     </div>
 
     <!-- ARTIFACT MODALS -->
+    <div id="columnModal" class="modal">
+        <h3>Statue of Aphrodite</h3>
+        <img src="assets/images/img_holder_overlay.jpg"/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus felis, interdum quis imperdiet vel, mollis eu nunc. Nunc iaculis urna 
+          nec odio lacinia at pretium dui luctus. Curabitur lacus augue, aliquet nec tincidunt in, posuere id dui. Vestibulum laoreet ipsum sollicitudin 
+          sapien auctor a congue massa malesuada. Etiam condimentum ultrices nunc at ultricies. Praesent ultricies nulla semper lectus euismod et blandit 
+          nulla vehicula. Suspendisse ac arcu ligula, eu sollicitudin massa. Proin rhoncus, arcu eget auctor bibendum, metus ipsum pretium dolor, ut 
+          consectetur eros nibh id turpis.</p>
+    </div>
 
 
     <!-- TWEET MODALS -->
@@ -214,9 +217,10 @@
 
 
     <div class="maps_container">
-      <div id="pano" style="height:862px;"></div>
+      <div id="pano" style="height:863px; margin:0 0 0 15px;"></div>
       <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:3%; right:1%; z-index:300; border:1px solid #fff;"></div>
     </div> 
+
 
 
     <div class="sidebar">
@@ -226,152 +230,138 @@
         <div id="locations-tab" class="tab"><a href="#" data="locations">Locations</a></div>
         <div id="coverage-tab" class="tab"><a href="#" data="coverage">Coverage</a></div>
       </div>
+
       
       <!-- about tab -->
       <div class="about tab_content">
-        <p>
-          <p>Destroyed by the eruption of Mount Vesuvius on August 24, 79 AD, Pompeii vanished beneath thick layers of volcanic ash. 
-            The city remained virtually untouched for nearly 1,700 years, preserved as if sealed in a time capsule. Pompeii's 
-            rediscovery-building by building, street by street, block by block-became one of the greatest archaeological sites 
-            ever unearthed.
-          </p>
-          <p>Explore the ruins of this once prosperous city in the interactive map. You’ll uncover frescos, marble sculptures, pottery, and 
-            other priceless artifacts from the exhibit in the environment where they once lived. Along the way, you’ll encounter some of the 
-            volcano’s victims eerily preserved in their final moments.
-          </p>
-          <p>Twitter updates based on the only eyewitness account of the disaster allow you to relive the eruption, hour-by-hour. Follow the 
-            courageous journey of Pliny the Elder, as recorded by his nephew in 79 AD. His story remains as one of the most historically 
-            significant chronicles of the eruption of Mount Vesuvius.
-          </p>
+        <img src="assets/images/about.jpg" width="267" height="113"/>
+      <p>Destroyed by the eruption of Mount Vesuvius on August 24, 79 AD, Pompeii vanished beneath thick layers of volcanic ash. The city remained 
+        virtually untouched for nearly 1,700 years, preserved as if sealed in a time capsule. Pompeii's unearthing –structure by structure, 
+        street by street, block by block--revealed one of the greatest archaeological sites ever excavated. </p>
+      <p>Explore the ruins of this once prosperous city in the interactive map. You’ll uncover frescos, marble sculptures, pottery, and other priceless 
+        artifacts from the exhibit in the environment where they once lived. Along the way, you’ll encounter some of the volcano’s victims eerily 
+        preserved in their final moments.</p>
+      <p>Twitter updates based on the only eyewitness account of the disaster allow you to relive the eruption, hour-by-hour. Follow the courageous 
+        journey of Pliny the Elder, as recorded by his nephew in 79 AD. His story remains as one of the most historically significant chronicles of 
+        the eruption of Mount Vesuvius. </p>
+      <p>Learn more about this catastrophic event and see hundreds of rare artifacts in person when you visit A Day in Pompeii at the Denver 
+        Museum of Nature &amp; Science, September 14th – January 13th.</p> 
 
-          <p>Learn more about this catastrophic event and see hundreds of rare artifacts in person when you visit A Day in Pompeii at the 
-            Denver Museum of Nature &amp; Science September 14th – January 13th.
-          </p> 
-        </p>
+      <a href="http://secure1.dmns.org/category/1-exhibitions.aspx" target="_blank">BUY TICKETS</a>
       </div>
 
       <!-- twitter tab -->
       <div class="twitter tab_content">
         <div class="pliny">
-          <img src="assets/images/pliny.jpg" width="73" height="73" alt="Pliny the Elder"/> 
-          <div class="pliny_detail">
-            <p><a href="http://www.twitter.com/plinyelder">@plinyelder</a></p>
-            <h3>Pliny the Elder</h3>
-            <p>Roman scholar, encyclopedist, nationalist, and commander of the Roman fleet at Misenum.</p>
-          </div>
-          <div class="tweets_container">
-          <div id="scrollbar1">
-            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div class="viewport">
-              <div class="overview">
-                <?php echo latest_tweets(); ?>
-              </div>
+            <img src="assets/images/pliny.jpg" width="73" height="73" alt="Pliny the Elder"/> 
+            <div class="pliny_detail">
+              <p><a href="http://www.twitter.com/plinyelder" target="_blank">@plinyelder</a></p>
+              <h3>Pliny the Elder</h3>
+              <p>Roman scholar, encyclopedist, nationalist, and commander of the Roman fleet at Misenum.</p>
             </div>
-          </div>
-          </div>
+        </div>
+        <div class="tweets_container">
+            <?php echo latest_tweets(); ?>
         </div>
       </div>
 
       <div id="locations_tab_container" class="locations tab_content">
-        <div id="scrollbar2">
-            
-            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div class="viewport">
-              <div class="overview">
-
-              <div class="jumpmarker_container">
-                <ul>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_bath" location="bath">Bath House</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_dio" location="dio">House of Diomedes</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_palestra" location="palestra">Palestra Grande</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_nocera" location="nocera">Porta Nocera</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_venus" location="venus">House of Venus in a Shell</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_ampitheatre" location="ampitheatre">Amphitheatre</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_menander" location="menander">House of Menander</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_vesu" location="vesu">Mount Vesuvius</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_misenum" location="misenum">Misenum</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_pompeiiOne" location="pompeiiOne">Pompeii 1st Location</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">Pompeii 2nd Location</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_oplontis" location="oplontis">Oplontis</a>
-                  </li>
-                  <li>
-                    <img src="assets/images/bg_location_thumb.jpg" width="70" height="70"/>
-                    <a href="#" id="jump_stabea" location="stabea">Stabea</a>
-                  </li>
-                </ul>
-            </div>
-        </div>
-        </div>
+          <div class="jumpmarker_container">
+            <ul>
+              <li>  
+                <a href="#" id="jump_bath" location="bath">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Bath House</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_dio" location="dio">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">House of Diomedes</span>
+                </a>
+              </li>
+              <li>  
+                <a href="#" id="jump_palestra" location="palestra">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Palestra Grande</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_nocera" location="nocera">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Porta Nocera</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_venus" location="venus">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">House of Venus in a Shell</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_ampitheatre" location="ampitheatre">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Amphitheatre</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_menander" location="menander">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">House of Menander</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_misenum" location="misenum">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Misenum</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_pompeiiOne" location="pompeiiOne">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">South Pompeii</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">North Pompeii</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_oplontis" location="oplontis">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Oplontis</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" id="jump_stabea" location="stabea">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Stabea</span>
+                </a>
+              </li>
+            </ul>
+            <div class="clear"></div>
         </div>
       </div>
 
       <!-- coverage/storify tab -->
       <div class="coverage tab_content">
-        <div id="scrollbar3">
-            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-            <div class="viewport">
-              <div class="overview">
-                <?php echo getStory(); ?>
-              </div>
-            </div>
-          </div>
-        </div>
+        <?php echo getStory(); ?>
       </div>
-
-      <div>
     </div>
-
+          
     <div class="footer">
-      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
-      <p><a href="#">Privacy Policy</a>  /  Conditions of Use Copyright © Denver Museum of Nature &amp; Science. All rights reserved.  <a id="credits" href="#">Additional Credits.</a></p>
-    </div>
-
-
-        <div class="social_buttons">
+        <div class="social_buttons" style="position:absolute; right:0px;">
         <ul>
           <li>
-            <!-- twitter button -->
+
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </li>
           <li>
-            <!-- facebook like button -->
-            <div class="fb-like" data-href="http://www.dayinpompeii.com" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="arial"></div>
+
+            <div class="fb-like" data-href="http://www.dayinpompeii.com" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false" data-font="arial"></div>
               <div id="fb-root"></div>
               <script>(function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -383,7 +373,13 @@
               </script>
           </li>
         </ul>
+        </div>
+      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
+      <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
     </div>
+
+
+
 
     
   </body>

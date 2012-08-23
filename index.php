@@ -273,13 +273,12 @@
       </div>
 
       <div id="locations_tab_container" class="locations tab_content">
-        <p></p>
         <div id="scrollbar2">
+            
             <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
             <div class="viewport">
               <div class="overview">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est ante, dignissim non vulputate id, ornare sed sem. Vivamus a leo purus.</p>
-              
+
               <div class="jumpmarker_container">
                 <ul>
                   <li>
@@ -343,7 +342,15 @@
 
       <!-- coverage/storify tab -->
       <div class="coverage tab_content">
-        <?php echo getStory(); ?>
+        <div id="scrollbar3">
+            <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+            <div class="viewport">
+              <div class="overview">
+                <?php echo getStory(); ?>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div>

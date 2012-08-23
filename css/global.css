@@ -12,7 +12,7 @@ h3 { font-size:24px; color:#cfb348; }
 /* modal */
 .modal { width:920px; position:absolute; top:15%; left:50%; margin:0 -460px 0 -460px; z-index:99999; display:none; }
 .modal h3 { margin:0 0 35px 0; }
-.modal p { line-height:18px; font-size:12px; margin:0 0 18px 0; }
+.modal p { line-height:18px; font-size:14px; margin:0 0 18px 0; }
 .modal img { float:left; margin:0 55px 0 0; }
 .modal .detail { float:left; width:459px; } 
 .modal .close { width:20px; height:19px; background:url('../assets/buttons/btn_close.png') no-repeat; cursor: pointer; display:block; float:right; }
@@ -48,6 +48,7 @@ h3 { font-size:24px; color:#cfb348; }
 
 .twitter {}
 .about { display:none; padding:0 45px 0 10px; }
+.about p { font-size:14px; line-height:18px; margin:5px 0 7px 0; }
 .coverage { left:-9999px; position:relative; }
 .locations { left:-9999px; position:relative;  }
 
@@ -66,13 +67,13 @@ h3 { font-size:24px; color:#cfb348; }
 
 /* location tab */
 .jumpmarker_container { padding:0 25px 0 10px; }
-.jumpmarker_container ul { margin:0 0 0 20px;}
-.jumpmarker_container li { float:left; text-align:center; padding:10px 0 0 0; margin:0 20px 0 0;  }
+.jumpmarker_container ul { margin:0 0 0 0px;}
+.jumpmarker_container li { float:left; text-align:center; padding:10px 0 0 0; margin:0 50px 0 0;  }
 .jumpmarker_container li a { display:block; width:70px; height:50px; }
 
 
 /* footer */
-.footer { width:720px; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
+.footer { width:720px; height:115px; color:#fff; position:absolute; bottom:-45px; left:0; }
 .footer img { float:left;  margin:10px 10px 0 7px;}
 .footer p { margin:37px 0 0 0;}
 .footer { font-size:10px; }

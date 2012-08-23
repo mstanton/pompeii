@@ -58,12 +58,12 @@ h3 { font-size:24px; color:#cfb348; }
 .locations a { color:#fff; }
 
 /* twitter tab */
-.twitter { padding:0 25px 0 15px; }
+.twitter { padding:0 25px 0 15px; width:262px; }
 .twitter img { float:left; margin:0 15px 0 0; }
 .tweets_container { margin:20px 0 0 0; }
 .tweets_container li { margin:0 0 20px 0; }
-.twitter .pliny .pliny_detail { width:160px; float:left; }
-.twitter .pliny .pliny_detail h3 { margin:0 0 5px 0; }
+.twitter .pliny .pliny_detail { width:150px; float:left; }
+.twitter .pliny .pliny_detail h3 { margin:0 0 5px 0; font-size:16px;}
 .twitter .pliny .pliny_detail p { font-size:11px; margin:0 0 10px 0; line-height:14px;  }
 .twitter .pliny .pliny_detail a { color:#fff; }
 

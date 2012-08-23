@@ -10,10 +10,11 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+    <script type="text/javascript" src="lib/js/load.js"></script> 
     <script type="text/javascript" src="lib/js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
-    <script type="text/javascript" src="lib/js/load.js"></script> 
+
 
   </head>
     
@@ -199,7 +200,7 @@
     <div id="stabeaModal" class="modal location">
       <div class="close"></div>
       <div class="detail">
-        <h3>Stabea</h3>
+        <h3>Stabiae</h3>
         <p>
           Located just 4.5 miles south of Pompeii, Staibea was a popular seaside resort town for wealthy Romans. The city was buried in ash 
           during the eruption of Mount Vesuvius.
@@ -253,13 +254,14 @@
       <!-- twitter tab -->
       <div class="twitter tab_content">
         <div class="pliny">
-            <img src="assets/images/pliny.jpg" width="73" height="73" alt="Pliny the Elder"/> 
+            <a href="http://www.twitter.com/elder_pliny" target="_blank"><img src="assets/images/pliny.jpg" width="73" height="73" alt="Pliny the Elder"/></a>
             <div class="pliny_detail">
-              <p><a href="http://www.twitter.com/plinyelder" target="_blank">@plinyelder</a></p>
-              <h3>Pliny the Elder</h3>
+              <p><a href="http://www.twitter.com/elder_pliny" target="_blank">@elder_pliny</a></p>
+              <a href="http://www.twitter.com/elder_pliny" target="_blank"><h3>Pliny the Elder</h3></a>
               <p>Roman scholar, encyclopedist, nationalist, and commander of the Roman fleet at Misenum.</p>
             </div>
         </div>
+        <div class="clear"></div>
         <div class="tweets_container">
             <?php echo latest_tweets(); ?>
         </div>
@@ -352,15 +354,15 @@
     </div>
           
     <div class="footer">
-        <div class="social_buttons" style="position:absolute; right:0px;">
+      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
+      <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
+      <div class="social_buttons" style="position:absolute; right:0px;">
         <ul>
           <li>
-
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </li>
           <li>
-
             <div class="fb-like" data-href="http://www.dayinpompeii.com" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false" data-font="arial"></div>
               <div id="fb-root"></div>
               <script>(function(d, s, id) {
@@ -374,8 +376,6 @@
           </li>
         </ul>
         </div>
-      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
-      <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
     </div>
 
 

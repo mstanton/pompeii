@@ -4,7 +4,7 @@ body { background:url('../assets/images/background.jpg') no-repeat top left #000
 h3 { font-size:24px; color:#cfb348; }
 .clear { clear:both; }
 
-#overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; opacity:0.6; display:none; }
+#overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; opacity:0.65; display:none; }
 
 /* MAIN LAYOUT */
 .top { width:710px; height:189px; background:url('../assets/images/top.png') no-repeat; position:absolute; top:0px; left:0px; z-index:300;}
@@ -18,6 +18,8 @@ h3 { font-size:24px; color:#cfb348; }
 .modal .close { width:20px; height:19px; background:url('../assets/buttons/btn_close.png') no-repeat; cursor: pointer; display:block; float:right; }
 
 .modal.location { width:560px; position:absolute; top:25%; left:50%; margin:0 -280px 0 -280px; z-index:99999; display:none;}
+.modal.location p { font-size:14px; line-height:18px;}
+
 
 /* map content */
 .maps_container { position:relative; margin:20px 0 0 317px; height:855px; }
@@ -46,8 +48,8 @@ h3 { font-size:24px; color:#cfb348; }
 
 .twitter {}
 .about { display:none; padding:0 45px 0 10px; }
-.coverage { display:none; }
-.locations { display:none; }
+.coverage { left:-9999px; position:relative; }
+.locations { left:-9999px; position:relative;  }
 
 
 .locations a { color:#fff; }
@@ -65,12 +67,12 @@ h3 { font-size:24px; color:#cfb348; }
 /* location tab */
 .jumpmarker_container { padding:0 25px 0 10px; }
 .jumpmarker_container ul { margin:0 0 0 20px;}
-.jumpmarker_container li { float:left; margin:0 60px 0 0; text-align:center; padding:10px 0 0 0; }
+.jumpmarker_container li { float:left; text-align:center; padding:10px 0 0 0; margin:0 20px 0 0;  }
 .jumpmarker_container li a { display:block; width:70px; height:50px; }
 
 
 /* footer */
-.footer { width:630px; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
+.footer { width:720px; height:115px; color:#fff; position:absolute; bottom:-115px; left:0; }
 .footer img { float:left;  margin:10px 10px 0 7px;}
 .footer p { margin:37px 0 0 0;}
 .footer { font-size:10px; }

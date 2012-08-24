@@ -29,13 +29,10 @@
     <!-- ARTIFACT MODALS -->
     <div id="aphroModal" class="modal">
         <div class="close"></div>
-        <h3>Statue of Aphrodite</h3>
+        <h3>The Statue of Aphrodite</h3>
         <img src="assets/modal/statue_aphrodite.jpg" width="406" height="565"/>
-        <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus felis, interdum quis imperdiet vel, mollis eu nunc. Nunc iaculis urna 
-          nec odio lacinia at pretium dui luctus. Curabitur lacus augue, aliquet nec tincidunt in, posuere id dui. Vestibulum laoreet ipsum sollicitudin 
-          sapien auctor a congue massa malesuada. Etiam condimentum ultrices nunc at ultricies. Praesent ultricies nulla semper lectus euismod et blandit 
-          nulla vehicula. Suspendisse ac arcu ligula, eu sollicitudin massa. Proin rhoncus, arcu eget auctor bibendum, metus ipsum pretium dolor, ut 
-          consectetur eros nibh id turpis.</p>-->
+        <p>The goddess Aphrodite, also called Venus, is shown preparing for a bath. Her pose echoes that of a famous statue of the goddess by the Greek sculptor Praxiteles. 
+          Her left foot rests on the wings of a cupid and her left arm on a small statue, perhaps of a priestess or devotee.</p>
     </div>
 
     <div id="helmetModal" class="modal">
@@ -52,74 +49,69 @@
     <div id="castfemaleModal" class="modal">
         <div class="close"></div>
         <h3>Cast of a Woman</h3>
-        <img src="assets/modal/helmet.jpg" width="406" height="566"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <img src="assets/modal/cast_women.jpg"/>
+        <p></p>
     </div>
 
     <div id="dishesModal" class="modal">
         <div class="close"></div>
-        <h3>Serving Dishes</h3>
+        <h3>Pots and Serving Dishes </h3>
         <img src="assets/modal/dishes.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>Examples of cookware and dishes commonly found in Pompeii’s kitchens.</p>
     </div>
 
     <div id="earringsModal" class="modal">
         <div class="close"></div>
-        <h3>Earrings</h3>
+        <h3>Two Pairs of Earrings </h3>
         <img src="assets/modal/earrings.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>These earrings were worn by Pompeii’s women. The sphere-shaped earrings on the right are decorated with close-embossed dotting, 
+          a style that was well known in the Vesuvius area. </p>
     </div>
-
 
     <div id="funeralModal" class="modal">
         <div class="close"></div>
-        <h3>Funeral Statue</h3>
+        <h3>Funeral Statue of a Woman</h3>
         <img src="assets/modal/funeral_statue.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>This larger-than-life statue of a Roman matron is typical of the funerary portraits that adorned Pompeian tombs. The woman is wearing a 
+          stola pulled over her head; her expression and posture represent the pious, modest and woman.</p>
     </div>
 
     <div id="venusshellModal" class="modal">
         <div class="close"></div>
         <h3>House of Venus In A Shell</h3>
         <img src="assets/modal/house_of_venus.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>This is a painting of Venus lying in a conch shell with a nymph to either side of her. 
+          The nymph on the left side is shown riding a dolphin while the other supports the shell. </p>
     </div>
 
     <div id="shippingModal" class="modal">
         <div class="close"></div>
-        <h3>Large Shipping Containers</h3>
+        <h3>Large Shipping Amphorae</h3>
         <img src="assets/modal/large_shipping.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>These four shipping containers, or amphorae, are typical Pompeian Red Ware. The interior of each was coated with pitch to seal the otherwise porous pottery. 
+          A cork stopper would have closed the top opening. </p>
     </div>
 
     <div id="malebustModal" class="modal">
         <div class="close"></div>
-        <h3>Male Bust</h3>
+        <h3>Statue of Baccus</h3>
         <img src="assets/modal/male_bust.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>Bacchus was the Roman god of wine and drink, equated with the Greek god Dionysus. This statue represents the god as a youth. The 
+          large eyes are rendered in ivory and a brown-colored glass paste. </p>
     </div>
 
     <div id="sittingmanModal" class="modal">
         <div class="close"></div>
         <h3>Sitting Man</h3>
         <img src="assets/modal/sitting_man.jpg"/>
-        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
-          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>-->
+        <p>A Pompeian man frozen in his last moments. He was found sitting with his back to the wall and his knees drawn up. </p>
+    </div>
+    <div id="femalebustModal" class="modal">
+        <div class="close"></div>
+        <h3>Bust of a Woman</h3>
+        <img src="assets/modal/woman_bust.jpg"/>
+        <p>This bust illustrates one of the simpler hairstyles worn by Pompeian women. More elaborate styles featured very high and full crowns of curls. 
+          Women often added hairpieces to achieve these fashion dictates. </p>
     </div>
     <!-- // END ARTIFACT MODALS -->
 

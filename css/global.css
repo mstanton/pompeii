@@ -10,7 +10,7 @@ h3 { font-size:24px; color:#cfb348; }
 .top { width:710px; height:189px; background:url('../assets/images/top.png') no-repeat; position:absolute; top:0px; left:0px; z-index:300;}
 
 /* modal */
-.modal { width:920px; position:fixed; top:15%; left:50%; margin:0 -460px 0 -460px; z-index:99999; display:none; }
+.modal { width:920px; position:fixed; top:12%; left:50%; margin:0 -460px 0 -460px; z-index:99999; display:none; }
 .modal h3 { margin:0 0 35px 0; }
 .modal p { line-height:18px; font-size:14px; margin:0 0 18px 0; }
 .modal img { float:left; margin:10px 55px 10px 0; }
@@ -20,7 +20,10 @@ h3 { font-size:24px; color:#cfb348; }
 .modal.location { width:560px; position:absolute; top:25%; left:50%; margin:0 -280px 0 -280px; z-index:99999; display:none;}
 .modal.location p { font-size:14px; line-height:18px;}
 
-.tweet_modal { max-width:908px; }
+.tweet_modal { width:700px; margin:0 -350px 0 -350px; }
+.tweet_modal.large { width:908px; margin:0 -454px 0 -454px;}
+.tweet_modal h3 { margin:0 0 0 0; }
+.tweet_modal img { margin:0 0 15px 0; }
 
 /* map content */
 .maps_container { position:relative; margin:20px 0 0 300px; height:855px; }
@@ -89,6 +92,7 @@ h3 { font-size:24px; color:#cfb348; }
 .footer a { color:#fff; text-decoration:none; }
 
 .social_buttons { width:180px; }
+.social_buttons li { float:left; }
 
 
 

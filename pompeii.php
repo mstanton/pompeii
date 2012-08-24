@@ -14,11 +14,9 @@
     <script type="text/javascript" src="lib/js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
-
-
   </head>
     
-  <body>
+  <body style="overflow-x:hidden;">
     <!-- CREDITS MODAL -->
     <div id="creditsModal" class="modal">
       <div class="close"></div>
@@ -112,7 +110,7 @@
       </div>
     </div>
 
-    <div id="tweet_9Modal" class="modal tweet_modal"> <!-- tweet 9 -->
+    <div id="tweet_9Modal" class="modal tweet_modal large"> <!-- tweet 9 -->
       <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0005_plinysRoute.jpg" width="908" height="437"/>
       <div class="detail">
@@ -149,7 +147,7 @@
     </div>
 
 
-    <div id="tweet_22Modal" class="modal tweet_modal"> 
+    <div id="tweet_22Modal" class="modal tweet_modal large"> 
       <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0006_blackedOut.jpg" width="908" height="437"/>
       <div class="detail">
@@ -161,7 +159,7 @@
       </div>
     </div>
 
-    <div id="tweet_25Modal" class="modal tweet_modal"> 
+    <div id="tweet_25Modal" class="modal tweet_modal large"> 
       <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0007_ashMap.gif" width="908" height="437"/>
       <div class="detail">
@@ -190,12 +188,6 @@
     <!-- // END TWEET MODALS -->
 
 
-
-
-
-
-    
-
     <!-- LOCATION MODALS -->
     <div id="dioModal" class="modal location">
       <div class="close"></div>
@@ -204,24 +196,21 @@
         <p>
           The devastation of Mount Vesuvius was experienced by all social classes. When the House of Diomedes was excavated in the early 1770's 
           twenty bodies were discovered inside, some were richly bejeweled women and children. This house is located along the Via dei Sepolcri 
-          (Street of Tombs), outside the Herculaneum Gate. It had a private bath suite, swimming pool, and sea views. 
+          (Street of Tombs), outside the Herculaneum Gate. It had a private bath suite, swimming pool, and sea views.  
         </p>
       </div>
     </div>
-
     <div id="bathModal" class="modal location">
       <div class="close"></div>
       <div class="detail">
         <h3>Bath House</h3>
         <p>
-          This is the site of a popular Roman bath house, much like the one visited by Pliny the Elder. Bathing was an important activity for 
-          the citizens of Pompeii. It was part of the daily regimen for men of all classes, and many women as well. The facilities in some ways 
-          resembled modern spas or health clubs. 
+          This is the site of a popular Roman bath house, much like the one visited by Pliny the Elder. Bathing was an important activity for the 
+          citizens of Pompeii. It was part of the daily regimen for men of all classes, and many women as well. The facilities in some ways 
+          resembled modern spas or health clubs.  
         </p>
       </div>
     </div>
-
-
     <div id="palestraModal" class="modal location">
       <div class="close"></div>
       <div class="detail">
@@ -251,7 +240,7 @@
       <div class="detail">
         <h3>The House of Venus in a Shell</h3>
         <p>
-          This house is situated on the Via dell’Abbondanza, the main street of Pompeii. The central panel of a massive mural at the south 
+          This house is situated on the Via dell'Abbondanza, the main street of Pompeii. The central panel of a massive mural at the south 
           end of the peristyle (colonnaded porch) shows the Venus, the goddess of love and nature, lying in a shell, surrounded by two 
           dolphin-riding cupids. More statuettes and paintings of Venus have been found in the houses and streets of Pompeii than any 
           other deity. This demonstrates the popular status of Venus as patroness goddess of the town.
@@ -502,14 +491,12 @@
       </div>
     </div>
           
-    <div class="footer" style="position:relative;">
+    <div class="footer">
       <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
       <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
-      
+    </div>
 
-
-
-      <div class="social_buttons" style="position:absolute; right:-500px;">
+    <div class="social_buttons" style="position:absolute; bottom:0px; right:20px;">
         <ul>
           <li>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
@@ -528,24 +515,19 @@
               </script>
           </li>
         </ul>
-        </div>
-    </div>
+     </div>
+    <script type="text/javascript">
 
-<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34277833-1']);
+      _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34277833-1']);
-  _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-
-    
+    </script> 
   </body>
 </html>

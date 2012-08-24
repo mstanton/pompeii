@@ -8,7 +8,17 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>A Day In Pompeii - The Last XXIV Hours</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="A Day In Pompeii - The Last XXIV Hours"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://dayinpompeii.com/pompeii.php"/>
     <meta property="og:image" content="http://dayinpompeii.com/images/Pompeii_Share_4.jpg"/>
+	<meta property="og:site_name" content="A Day In Pompeii"/>
+    <meta property="og:description"
+          content="This exhibit is based on the design and presentation developed by the Gulf Coast Exploreum, the Science Museum of Minnesota, the San Diego Natural History Museum, and Discovery Place. Organized by Soprintendenza Speciale per i Beni Archeologici di Napoli e Pompei. Artifact Photo Credit…"/>
+    <meta property="fb:admins" content="63912706"/>
+                   
+                   
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>

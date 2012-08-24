@@ -21,6 +21,7 @@
   <body>
     <!-- CREDITS MODAL -->
     <div id="creditsModal" class="modal">
+      <div class="close"></div>
       <h3>Credits:</h3>
       <p>This exhibit is based on the design and presentation developed by the Gulf Coast Exploreum, the Science Museum of Minnesota, 
       the San Diego Natural History Museum, and Discovery Place. Organized by Soprintendenza Speciale per i Beni Archeologici di Napoli e Pompei. 
@@ -29,6 +30,7 @@
 
     <!-- ARTIFACT MODALS -->
     <div id="columnModal" class="modal">
+        <div class="close"></div>
         <h3>Statue of Aphrodite</h3>
         <img src="assets/images/img_holder_overlay.jpg"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus felis, interdum quis imperdiet vel, mollis eu nunc. Nunc iaculis urna 
@@ -40,33 +42,35 @@
 
 
     <!-- TWEET MODALS -->
-    <div id="tweetModalOne" class="modal tweet_modal"> <!-- tweet_2 -->
+    <div id="tweet_2Modal" class="modal tweet_modal"> <!-- tweet_2 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0005_food.jpg" width="658" height="425"/>
       <div class="detail">
         <h3>Lunch in AD 79</h3>
         <p>In ancient Pompeii three meals a day were common. Lunch often consisted of bread and cheese and was eaten on the run. Dinner was the 
           main meal prepared at home or picked up at a thermopolium.</p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Enjoying lunch on the balcony after a cold bath. 
-            <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Enjoying lunch on the balcony after a cold bath. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
-    <div id="tweetModalTwo" class="modal tweet_modal"> <!-- tweet_3 -->
+    <div id="tweet_3Modal" class="modal tweet_modal"> <!-- tweet_3 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0004_tree.jpg" width="406" height="566"/>
       <div class="detail">
         <h3>Umbrella Pine</h3>
         <p>Pliny the Younger described the cloud's shape by likening it to an umbrella pine –with a very long "trunk" 
           from which spread some "branches".</p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php">A strange cloud is rising in the distance. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>A strange cloud is rising in the distance. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
 
-    <div id="tweetModalThree" class="modal tweet_modal"> <!-- tweet_4 -->
+    <div id="tweet_4Modal" class="modal tweet_modal"> <!-- tweet_4 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0000_mountVesuvius_recreation.jpg" width="648" height="420"/>
       <div class="detail">
         <h3>Mount Vesuvius August 24 AD 79</h3>
@@ -75,69 +79,117 @@
           and temperatures to build deep below the surface. These forces build up through time and occasionally get released via earthquakes or 
           volcanic eruptions.</p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php">A cloud made of ash and dirt appears to be coming from Mount Vesuvius. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>A cloud made of ash and dirt appears to be coming from Mount Vesuvius. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
 
-    <div id="tweetModalFour" class="modal tweet_modal"> <!-- tweet_5 -->
+    <div id="tweet_6Modal" class="modal tweet_modal"> <!-- tweet_6 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0000_mountVesuvius_recreation.jpg" width="648" height="420"/>
       <div class="detail">
         <h3>Pliny the Younger (AD 61-113)</h3>
         <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 
           The story of his uncle's journey remains one of the most historically significant chronicles of the disaster. </p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Asked my nephew to join me, but he's intent on studying. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Asked my nephew to join me, but he's intent on studying. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
 
-    <div id="tweetModalFive" class="modal tweet_modal"> <!-- tweet_8 -->
+    <div id="tweet_8Modal" class="modal tweet_modal"> <!-- tweet_8 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg" width="406" height="566"/>
       <div class="detail">
         <h3>Pliny the Younger (AD 61-113)</h3>
         <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 
           The story of his uncle's journey remains one of the most historically significant chronicles of the disaster. </p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Asked my nephew to join me, but he's intent on studying. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Asked my nephew to join me, but he's intent on studying. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
-    <div id="tweetModalSix" class="modal tweet_modal"> <!-- tweet 10 -->
+    <div id="tweet_9Modal" class="modal tweet_modal"> <!-- tweet 9 -->
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0005_plinysRoute.jpg" width="908" height="437"/>
       <div class="detail">
         <h3>Pliny the Elder's Route </h3>
         <p>Map of Pliny's route from Misenum to Stabiae. Location dot is on the shore at Misenum. </p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Setting out across the Bay of Naples. Ash and pumice are pummeling our boat.   <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Setting out across the Bay of Naples. Ash and pumice are pummeling our boat.   <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>    
 
-    <div id="tweetModalSeven" class="modal tweet_modal"> 
+    <div id="tweet_16Modal" class="modal tweet_modal"> 
+      <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0002_pompeiiOnFire2.jpg" width="648" height="420"/>
       <div class="detail">
         <h3>Illustration of Pompeii Burning</h3>
         <p>Pyroclastic surges, or “glowing avalanches” of hot ash, wreaked devastation on the city of Pompeii as they moved down the volcano at intense speeds.</p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Walking through town. We can see broad sheets of flames rising from Pompeii. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Walking through town. We can see broad sheets of flames rising from Pompeii. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
     </div>
 
-    <div id="tweetModalEight" class="modal tweet_modal"> 
-      <img src="assets/twitter/Pompeii_modal_0002_pompeiiOnFire2.jpg" width="648" height="420"/>
+    <div id="tweet_19Modal" class="modal tweet_modal"> 
+      <div class="close"></div>
+      <img src="assets/twitter/Pompeii_modal_0000_mountVesuvius_recreation.jpg" width="648" height="420"/>
       <div class="detail">
         <h3>Mount Vesuvius, August 25 AD 79</h3>
         <p>The eruption of Mount Vesuvius in AD 79 was roughly 10 times larger than the eruption of Mount St. Helens in 1980. At the peak of the eruption, magma, ash and gas were released from the volcano at a rate of 100,000 tons every second.</p>
         <div class="tweet_txt">
-          <p><a href="http://dayinpompeii.com/pompeii.php?point=misenum">Woke up to violent shaking. The courtyard is full of ash and pumice. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+          <p>Woke up to violent shaking. The courtyard is full of ash and pumice. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
       </div>
-    </div>    
+    </div>
+
+
+    <div id="tweet_22Modal" class="modal tweet_modal"> 
+      <div class="close"></div>
+      <img src="assets/twitter/Pompeii_modal_0006_blackedOut.jpg" width="908" height="437"/>
+      <div class="detail">
+        <h3>Streets of Stabiae</h3>
+        <p>When Mount Vesuvius erupted it sent a column of ash and pumice into the atmosphere. Just hours later, the immense cloud would block out the sun completely, leaving the area in total darkness.</p>
+        <div class="tweet_txt">
+          <p>It's daytime, but blacker than any night. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="tweet_25Modal" class="modal tweet_modal"> 
+      <div class="close"></div>
+      <img src="assets/twitter/Pompeii_modal_0007_ashMap.gif" width="908" height="437"/>
+      <div class="detail">
+        <h3>Ash Map of Eruption</h3>
+        <p>During the eruption of AD 79, volcanic ash fell as far away as Africa. The dark, shaded area shows the approximate area most heavily 
+          affected by the eruption.</p>
+        <div class="tweet_txt">
+          <p>The air is thick with ash. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+        </div>
+      </div>
+    </div> 
+
+    <div id="tweet_26Modal" class="modal tweet_modal">
+      <div class="close"></div> 
+      <img src="assets/twitter/Pompeii_modal_0007_ashMap.jpg" width="704" height="436"/>
+      <div class="detail">
+        <h3>Letter from Pliny the Younger</h3>
+        <p>"There my uncle lay down on a sail that had been spread for him, and called twice for some cold water, which he drank. 
+          Then a rush of flame, with the reek of sulfur, made everyone scatter, and made him get up. He stood with the help of his servants, 
+          but at once fell down dead, suffocated, as I suppose, by some potent, noxious vapor." Pliny the Younger </p>
+        <div class="tweet_txt">
+          <p>Breathing now impossible. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
+        </div>
+      </div>
+    </div>       
+    <!-- // END TWEET MODALS -->
+
+
 
 
 

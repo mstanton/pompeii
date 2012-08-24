@@ -295,7 +295,9 @@
 
  
 
-    <div class="top"></div>
+    <div class="top">
+      <a href="http://dayinpompeii.com" style="display:block; width:500px; height:150px;">&nbsp;</a>
+    </div>
      
     <div id="overlay"></div>
 
@@ -343,7 +345,10 @@
               <p><a href="http://www.twitter.com/elder_pliny" target="_blank">@elder_pliny</a></p>
               <a href="http://www.twitter.com/elder_pliny" target="_blank"><h3>Pliny the Elder</h3></a>
               <p>Roman scholar, encyclopedist, nationalist, and commander of the Roman fleet at Misenum.</p>
+
             </div>
+            <div class="clear"></div>
+            <hr/>
         </div>
         <div class="clear"></div>
         <div class="tweets_container">
@@ -352,9 +357,12 @@
       </div>
 
       <div id="locations_tab_container" class="locations tab_content">
-          <h3>Locations</h3>
-          <p>Explore the locations that Pliny the Elder visited during the eruption of Mount Vesuvius and other sites affected by the disaster. Along the way, discover artifacts in the area where they were found.</p>
-          <p>See what people are saying about the anniversary of the eruption of Mount Vesuvius and the last 24 hours of Pompeii. </p>
+          <div class="detail">
+            <h3>Locations</h3>
+            <p>Explore the locations that Pliny the Elder visited during the eruption of Mount Vesuvius and other sites affected by the disaster. Along the way, discover artifacts in the area where they were found.</p>
+            <p>See what people are saying about the anniversary of the eruption of Mount Vesuvius and the last 24 hours of Pompeii. </p>
+            <hr/>
+          </div>
           <div class="jumpmarker_container">
             <ul>
               <li>  
@@ -438,6 +446,7 @@
       <div class="coverage tab_content">
         <h3>Coverage</h3>
         <p>See what other people are saying about Pompeii, its anniversary and Pliny's account of the eruption at Mount Vesuvius.</p>
+        <hr/>
         <?php echo getStory(); ?>
       </div>
     </div>

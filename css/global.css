@@ -52,11 +52,16 @@ h3 { font-size:24px; color:#cfb348; }
 .twitter img { float:left; margin:0 20px 0 0; }
 .about { display:none; padding:0 45px 0 10px; }
 .about p { font-size:11px; line-height:17px; margin:5px 0 7px 0; }
-.coverage { display:none; width:300px; }
+
+.coverage { display:none; width:250px; padding:0 30px 0 20px; }
+.coverage h3 { margin:0 0 10px 0; }
 
 .locations { display:none; width:300px; }
-.locations li  { margin:20px 0 20px 0; height:120px; cursor:pointer; }
-.locations a { color:#fff; }
+.locations li  { margin:0px 0 0px 0; height:120px; cursor:pointer; }
+.locations a { color:#fff; font-size:11px; }
+.locations .detail { padding:0 30px 0 10px; }
+.locations .detail h3 { margin:0 0 7px 0; }
+.locations .detail p { margin:0 0 7px 0; }
 
 /* twitter tab */
 .twitter { padding:0 25px 0 15px; width:262px; }
@@ -69,9 +74,9 @@ h3 { font-size:24px; color:#cfb348; }
 .twitter .pliny .pliny_detail a { color:#fff; }
 
 /* location tab */
-.jumpmarker_container { padding:0 10px 0 10px; }
-.jumpmarker_container ul { margin:0 0 0 0px;}
-.jumpmarker_container li { float:left; text-align:center; padding:10px 0 0 0; margin:0 20px 0 0;  }
+.jumpmarker_container { padding:0 0px 0 15px; }
+.jumpmarker_container ul { margin:10px 0 0 0px;}
+.jumpmarker_container li { float:left; text-align:center; padding:0px 0 0 0; margin:0 20px 0 0;  }
 .jumpmarker_container li a { display:block; width:70px; height:50px; }
 
 

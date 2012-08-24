@@ -42,6 +42,7 @@ h3 { font-size:24px; color:#cfb348; }
 
 #about-tab { width:48px; height:36px; background:url('../assets/buttons/btn_about_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
 #about-tab a { display:block; width:48px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
+#about-tab.active { background:url('../assets/buttons/btn_about_ACTIVE.png')  }
 #pliny-tab { width:96px; height:36px; background:url('../assets/buttons/btn_pliny_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
 #pliny-tab a { display:block; width:96px; height:36px; margin:0 0 0 7px; color:#bab2a9; font-weight:bold; }
 #locations-tab { width:69px; height:36px; background:url('../assets/buttons/btn_location_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}

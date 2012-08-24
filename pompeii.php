@@ -188,7 +188,7 @@
       <img src="assets/twitter/Pompeii_modal_0005_plinysRoute.jpg" width="908" height="437"/>
       <div class="detail">
         <h3>Pliny the Elder's Route </h3>
-        <p>Map of Pliny's route from Misenum to Stabiae. Location dot is on the shore at Misenum. </p>
+        <br/>
         <div class="tweet_txt">
           <p>Setting out across the Bay of Naples. Ash and pumice are pummeling our boat.   <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
         </div>
@@ -481,74 +481,74 @@
             <ul>
               <li>
                 <a href="#" id="jump_pompeiiOne" location="pompeiiOne">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/pompeii_ancient.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Ancient Pompeii</span>
                 </a>
               </li>
               <li>  
                 <a href="#" id="jump_bath" location="bath">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/bath.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Bath House</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_dio" location="dio">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/dio.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">House of Diomedes</span>
                 </a>
               </li>
               <li>  
                 <a href="#" id="jump_palestra" location="palestra">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/palestra.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Palestra Grande</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_nocera" location="nocera">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/nocera.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Porta Nocera</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_oplontis" location="oplontis">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/oplontis.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Oplontis</span>
                 </a>
               </li>              
               <li>
                 <a href="#" id="jump_venus" location="venus">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/venus.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">House of Venus in a Shell</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_stabea" location="stabea">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/stabea.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Stabiae</span>
                 </a>
               </li>              
               <li>
                 <a href="#" id="jump_ampitheatre" location="ampitheatre">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/ampitheatre.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Amphitheater</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_menander" location="menander">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/menander.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">House of Menander</span>
                 </a>
               </li>
               <li>
                 <a href="#" id="jump_misenum" location="misenum">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/misenum.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Misenum</span>
                 </a>
               </li>
 
               <li>
                 <a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <img src="assets/thumbs/pompeii_ruins.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">Pompeii Ruins</span>
                 </a>
               </li>

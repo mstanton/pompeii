@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:twitter="http://api.twitter.com" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:georss="http://www.georss.org/georss">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" version="2.0" xmlns:twitter="http://api.twitter.com">
   <channel>
     <title>Twitter / Elder_Pliny</title>
     <link>http://twitter.com/Elder_Pliny</link>
@@ -7,6 +7,24 @@
     <description>Twitter updates from Pliny the Elder / Elder_Pliny.</description>
     <language>en-us</language>
     <ttl>40</ttl>
+  <item>
+    <title>Elder_Pliny: My voyage of curiosity has turned to courage. http://t.co/bAWbVBgJ #pompeii24</title>
+    <description>Elder_Pliny: My voyage of curiosity has turned to courage. http://t.co/bAWbVBgJ #pompeii24</description>
+    <pubDate>Fri, 24 Aug 2012 20:02:24 +0000</pubDate>
+    <guid>http://twitter.com/Elder_Pliny/statuses/239090300889485312</guid>
+    <link>http://twitter.com/Elder_Pliny/statuses/239090300889485312</link>
+    <twitter:source>&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
+  <item>
+    <title>Elder_Pliny: Just received a letter from my wife's sister, Rectina. Her villa is at the foot of Mount Vesuvius. http://t.co/bAWbVBgJ #pompeii24</title>
+    <description>Elder_Pliny: Just received a letter from my wife's sister, Rectina. Her villa is at the foot of Mount Vesuvius. http://t.co/bAWbVBgJ #pompeii24</description>
+    <pubDate>Fri, 24 Aug 2012 19:20:32 +0000</pubDate>
+    <guid>http://twitter.com/Elder_Pliny/statuses/239079763334017024</guid>
+    <link>http://twitter.com/Elder_Pliny/statuses/239079763334017024</link>
+    <twitter:source>&lt;a href=&quot;http://www.hootsuite.com&quot; rel=&quot;nofollow&quot;&gt;HootSuite&lt;/a&gt;</twitter:source>
+    <twitter:place/>
+  </item>
   <item>
     <title>Elder_Pliny: Asked my nephew to join me, but he's intent on studying. http://t.co/dv0LjuVw #pompeii24</title>
     <description>Elder_Pliny: Asked my nephew to join me, but he's intent on studying. http://t.co/dv0LjuVw #pompeii24</description>

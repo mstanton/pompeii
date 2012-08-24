@@ -11,7 +11,7 @@
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
     <script type="text/javascript" src="lib/js/load.js"></script> 
-    <script type="text/javascript" src="lib/js/map.js"></script>
+    <script type="text/javascript" src="lib/js/map.js?v=3"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
   </head>
@@ -311,16 +311,16 @@
       </div>
     </div>
 
-    <div id="amptheatreModal" class="modal location">
+    <div id="ampitheatreModal" class="modal location">
       <div class="close"></div>
       <div class="detail">
-        <h3>Amphitheatre</h3>
+        <h3>Amphitheater</h3>
         <p>
-          The Amphitheatre at Pompeii is the oldest known permanent amphitheatre in Italy, having been constructed shortly after the 
+          The Amphitheater at Pompeii is the oldest known permanent amphitheatre in Italy, having been constructed shortly after the 
           foundation of the Roman colony at Pompeii, probably around 70 B.C. Built at private expense by Gaius Quinctius Valgus and 
           Marcus Porcius, it was dedicated to the inhabitants of Pompeii and served as a symbol of the new political order. In A.D. 59, a 
           deadly riot pitting inhabitants of Pompeii against those of neighboring Nuceria led Roman authorities to impose a decade-long ban 
-          on gladiatorial games in the amphitheatre.
+          on gladiatorial games in the amphitheater.
         </p>
       </div>
     </div>    
@@ -378,8 +378,7 @@
         <h3>Oplontis</h3>
         <p>
           In ancient times, the city of Oplontis was a well-developed residential center along the Campanian coast of the Bay of Naples due 
-          west of Pompeii. It was home to Rectina, the sister-in-law of Pliny the Elder. Take a moment to explore the city. You'll 
-          find two artifacts located near this point. 
+          west of Pompeii. It was home to Rectina, the sister-in-law of Pliny the Elder. 
         </p>
       </div>
     </div>
@@ -395,16 +394,6 @@
       </div>
     </div>
 
-    <div id="ampitheatreModal" class="modal location">
-      <div class="close"></div>
-      <div class="detail">
-        <h3>Ampitheatre</h3>
-        <p>
-          <!--Pliny the Elder was forced to land on these shores in AD 79. Located just 4.5 miles south of Pompeii, the seaside resort town of 
-          Stabiae was almost completely buried in ash during the eruption of Mount Vesuvius. -->
-        </p>
-      </div>
-    </div>
 
   <!-- // END MODALS -->
 
@@ -428,7 +417,7 @@
     <div class="sidebar">
       <div class="tab_controls">
         <div id="about-tab" class="tab"><a href="#" data="about">About</a></div>
-        <div id="pliny-tab" class="tab"><a href="#" data="twitter">Pliny's Account</a></div>
+        <div id="pliny-tab" class="tab active"><a href="#" data="twitter">Pliny's Account</a></div>
         <div id="locations-tab" class="tab"><a href="#" data="locations">Locations</a></div>
         <div id="coverage-tab" class="tab"><a href="#" data="coverage">Coverage</a></div>
       </div>
@@ -475,11 +464,16 @@
           <div class="detail">
             <h3>Locations</h3>
             <p>Explore the locations that Pliny the Elder visited during the eruption of Mount Vesuvius and other sites affected by the disaster. Along the way, discover artifacts in the area where they were found.</p>
-            <p>See what people are saying about the anniversary of the eruption of Mount Vesuvius and the last 24 hours of Pompeii. </p>
             <hr/>
           </div>
           <div class="jumpmarker_container">
             <ul>
+              <li>
+                <a href="#" id="jump_pompeiiOne" location="pompeiiOne">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Ancient Pompeii</span>
+                </a>
+              </li>
               <li>  
                 <a href="#" id="jump_bath" location="bath">
                   <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
@@ -505,15 +499,27 @@
                 </a>
               </li>
               <li>
+                <a href="#" id="jump_oplontis" location="oplontis">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Oplontis</span>
+                </a>
+              </li>              
+              <li>
                 <a href="#" id="jump_venus" location="venus">
                   <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
                   <span class="loc_title">House of Venus in a Shell</span>
                 </a>
               </li>
               <li>
+                <a href="#" id="jump_stabea" location="stabea">
+                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
+                  <span class="loc_title">Stabiae</span>
+                </a>
+              </li>              
+              <li>
                 <a href="#" id="jump_ampitheatre" location="ampitheatre">
                   <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
-                  <span class="loc_title">Amphitheatre</span>
+                  <span class="loc_title">Amphitheater</span>
                 </a>
               </li>
               <li>
@@ -528,28 +534,11 @@
                   <span class="loc_title">Misenum</span>
                 </a>
               </li>
-              <li>
-                <a href="#" id="jump_pompeiiOne" location="pompeiiOne">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
-                  <span class="loc_title">South Pompeii</span>
-                </a>
-              </li>
+
               <li>
                 <a href="#" id="jump_pompeiiTwo" location="pompeiiTwo">
                   <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
-                  <span class="loc_title">North Pompeii</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" id="jump_oplontis" location="oplontis">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
-                  <span class="loc_title">Oplontis</span>
-                </a>
-              </li>
-              <li>
-                <a href="#" id="jump_stabea" location="stabea">
-                  <img src="assets/images/bg_location_thumb.jpg" width="70" height="70" alt=""/>
-                  <span class="loc_title">Stabiae</span>
+                  <span class="loc_title">Pompeii Ruins</span>
                 </a>
               </li>
             </ul>

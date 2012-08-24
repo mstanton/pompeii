@@ -5,10 +5,17 @@
     $feed = "lib/php/feed.rss"; 
     $doc->load($feed); 
 
+
+
     $outer = '<ul id="tweets">';
-    $max_tweets = 30;
+    $max_tweets = 26;
     $i = 1;
-    foreach ($doc->getElementsByTagName('item') as $node) {
+ 
+    
+
+   foreach ($doc->getElementsByTagName('item') as $node) {
+
+
       $tweet = $node->getElementsByTagName('title')->item(0)->nodeValue;
       $link = $node->getElementsByTagName('link')->item(0)->nodeValue;
       
@@ -22,5 +29,6 @@
     }
      $outer .= "</ul>\n";
     return "<div class='post'>".$outer."</div>";
+    
   }
  ?>

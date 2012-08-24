@@ -21,11 +21,10 @@
   <body>
     <!-- CREDITS MODAL -->
     <div id="creditsModal" class="modal">
-      <h3>Artifact Photo Credits:</h3>
-      <ul>
-        <li><p>William Starling, photographer.</p></li>
-        <li><p>Artifact descriptions: The Complete Pompeii. Thames &amp; Hudson: New York. 2007.</p></li>
-      </ul>
+      <h3>Credits:</h3>
+      <p>This exhibit is based on the design and presentation developed by the Gulf Coast Exploreum, the Science Museum of Minnesota, 
+      the San Diego Natural History Museum, and Discovery Place. Organized by Soprintendenza Speciale per i Beni Archeologici di Napoli e Pompei. 
+      Artifact Photo Credits: William Starling, photographer. Artifact descriptions: The Complete Pompeii. Thames &amp; Hudson: New York. 2007.</p> 
     </div>
 
     <!-- ARTIFACT MODALS -->
@@ -451,10 +450,14 @@
       </div>
     </div>
           
-    <div class="footer">
+    <div class="footer" style="position:relative;">
       <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
       <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
-      <div class="social_buttons" style="position:absolute; right:0px;">
+      
+
+
+
+      <div class="social_buttons" style="position:absolute; right:-500px;">
         <ul>
           <li>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
@@ -476,7 +479,19 @@
         </div>
     </div>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34277833-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
     

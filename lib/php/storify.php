@@ -9,10 +9,10 @@ function getStory() {
       	foreach ( $elements->data as $entry) {
       		$text = $entry->text;	
 
-          $text = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', '<a href="$1">$1</a>',$text);
-          $text = preg_replace("/@([0-9a-zA-Z]+)/", "<a href=\"http://twitter.com/$1\">@$1</a><br/><br/>", $text);
+          $text = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', '<a href="$1" target="_blank">$1</a>',$text);
+          $text = preg_replace("/@([0-9a-zA-Z]+)/", "<a href=\"http://twitter.com/$1\" target=\"_blank\">@$1</a><br/><br/>", $text);
 
-          echo $text;
+          echo '<p>'.$text.'</p>';
       	}
   	}
 }

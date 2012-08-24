@@ -24,7 +24,7 @@
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
     <script type="text/javascript" src="lib/js/load.js"></script> 
-    <script type="text/javascript" src="lib/js/map.js?v=3"></script>
+    <script type="text/javascript" src="lib/js/map.js?v=4"></script>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
   </head>

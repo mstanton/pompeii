@@ -1,11 +1,14 @@
 <?php require(dirname(__FILE__)."/lib/php/tweets.php"); ?>
 <?php require(dirname(__FILE__)."/lib/php/storify.php"); ?>
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>A Day In Pompeii - The Last XXIV Hours</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="http://dayinpompeii.com/images/Pompeii_Share_4.jpg"/>
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
@@ -463,7 +466,8 @@
       <div id="locations_tab_container" class="locations tab_content">
           <div class="detail">
             <h3>Locations</h3>
-            <p>Explore the locations that Pliny the Elder visited during the eruption of Mount Vesuvius and other sites affected by the disaster. Along the way, discover artifacts in the area where they were found.</p>
+            <p>Explore the locations that Pliny the Elder visited during the eruption of Mount Vesuvius and other sites affected by the disaster. 
+              Along the way, discover artifacts from the exhibition, A Day in Pompeii.</p>
             <hr/>
           </div>
           <div class="jumpmarker_container">

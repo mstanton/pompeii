@@ -24,6 +24,7 @@ h3 { font-size:24px; color:#cfb348; }
 .tweet_modal.large { width:908px; margin:0 -454px 0 -454px;}
 .tweet_modal h3 { margin:0 0 0 0; }
 .tweet_modal img { margin:0 0 15px 0; }
+.tweet_modal .detail {}
 
 /* map content */
 .maps_container { position:relative; margin:20px 0 0 300px; height:855px; }

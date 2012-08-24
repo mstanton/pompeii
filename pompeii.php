@@ -27,16 +27,107 @@
     </div>
 
     <!-- ARTIFACT MODALS -->
-    <div id="columnModal" class="modal">
+    <div id="aphroModal" class="modal">
         <div class="close"></div>
         <h3>Statue of Aphrodite</h3>
-        <img src="assets/images/img_holder_overlay.jpg"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus felis, interdum quis imperdiet vel, mollis eu nunc. Nunc iaculis urna 
+        <img src="assets/modal/statue_aphrodite.jpg" width="406" height="565"/>
+        <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tellus felis, interdum quis imperdiet vel, mollis eu nunc. Nunc iaculis urna 
           nec odio lacinia at pretium dui luctus. Curabitur lacus augue, aliquet nec tincidunt in, posuere id dui. Vestibulum laoreet ipsum sollicitudin 
           sapien auctor a congue massa malesuada. Etiam condimentum ultrices nunc at ultricies. Praesent ultricies nulla semper lectus euismod et blandit 
           nulla vehicula. Suspendisse ac arcu ligula, eu sollicitudin massa. Proin rhoncus, arcu eget auctor bibendum, metus ipsum pretium dolor, ut 
-          consectetur eros nibh id turpis.</p>
+          consectetur eros nibh id turpis.</p>-->
     </div>
+
+    <div id="helmetModal" class="modal">
+        <div class="close"></div>
+        <h3>Gladiator's Helmet</h3>
+        <img src="assets/modal/helmet.jpg" width="406" height="566"/>
+        <p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>
+    </div>
+
+
+
+    <div id="castfemaleModal" class="modal">
+        <div class="close"></div>
+        <h3>Cast of a Woman</h3>
+        <img src="assets/modal/helmet.jpg" width="406" height="566"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="dishesModal" class="modal">
+        <div class="close"></div>
+        <h3>Serving Dishes</h3>
+        <img src="assets/modal/dishes.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="earringsModal" class="modal">
+        <div class="close"></div>
+        <h3>Earrings</h3>
+        <img src="assets/modal/earrings.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+
+    <div id="funeralModal" class="modal">
+        <div class="close"></div>
+        <h3>Funeral Statue</h3>
+        <img src="assets/modal/funeral_statue.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="venusshellModal" class="modal">
+        <div class="close"></div>
+        <h3>House of Venus In A Shell</h3>
+        <img src="assets/modal/house_of_venus.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="shippingModal" class="modal">
+        <div class="close"></div>
+        <h3>Large Shipping Containers</h3>
+        <img src="assets/modal/large_shipping.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="malebustModal" class="modal">
+        <div class="close"></div>
+        <h3>Male Bust</h3>
+        <img src="assets/modal/male_bust.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+    <div id="sittingmanModal" class="modal">
+        <div class="close"></div>
+        <h3>Sitting Man</h3>
+        <img src="assets/modal/sitting_man.jpg"/>
+        <!--<p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+          plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
+          guard on his left leg.</p>-->
+    </div>
+
+
+    <!-- // END ARTIFACT MODALS -->
+
+
+
+
 
 
     <!-- TWEET MODALS -->
@@ -56,7 +147,7 @@
     <div id="tweet_3Modal" class="modal tweet_modal"> <!-- tweet_3 -->
       <div class="close"></div>
       <img src="assets/twitter/Pompeii_modal_0004_tree.jpg" width="406" height="566"/>
-      <div class="detail">
+      <div class="detail" style="width:200px; padding:0 0 0 20px;">
         <h3>Umbrella Pine</h3>
         <p>Pliny the Younger described the cloud's shape by likening it to an umbrella pine –with a very long "trunk" 
           from which spread some "branches".</p>
@@ -85,21 +176,7 @@
 
     <div id="tweet_6Modal" class="modal tweet_modal"> <!-- tweet_6 -->
       <div class="close"></div>
-      <img src="assets/twitter/Pompeii_modal_0000_mountVesuvius_recreation.jpg" width="648" height="420"/>
-      <div class="detail">
-        <h3>Pliny the Younger (AD 61-113)</h3>
-        <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 
-          The story of his uncle's journey remains one of the most historically significant chronicles of the disaster. </p>
-        <div class="tweet_txt">
-          <p>Asked my nephew to join me, but he's intent on studying. <a href="https://twitter.com/#!/search/realtime/%23pompeii24">#pompeii24</a></p>
-        </div>
-      </div>
-    </div>
-
-
-    <div id="tweet_8Modal" class="modal tweet_modal"> <!-- tweet_8 -->
-      <div class="close"></div>
-      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg" width="406" height="566"/>
+      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg"/>
       <div class="detail">
         <h3>Pliny the Younger (AD 61-113)</h3>
         <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 
@@ -174,7 +251,7 @@
 
     <div id="tweet_26Modal" class="modal tweet_modal">
       <div class="close"></div> 
-      <img src="assets/twitter/Pompeii_modal_0007_ashMap.jpg" width="704" height="436"/>
+      <img src="assets/twitter/letter.png" width="704" height="436"/>
       <div class="detail">
         <h3>Letter from Pliny the Younger</h3>
         <p>"There my uncle lay down on a sail that had been spread for him, and called twice for some cold water, which he drank. 
@@ -487,16 +564,16 @@
         <h3>Coverage</h3>
         <p>See what other people are saying about Pompeii, its anniversary and Pliny's account of the eruption at Mount Vesuvius.</p>
         <hr/>
-        <?php echo getStory(); ?>
+        <?php //echo getStory(); ?>
       </div>
     </div>
-          
+          <div class="clear"></div>
     <div class="footer">
-      <img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
+      <div><img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
       <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
-    </div>
+      </div>
 
-    <div class="social_buttons" style="position:absolute; bottom:0px; right:20px;">
+      <div class="social_buttons" style="position:absolute; bottom:55px; right:-200px;">
         <ul>
           <li>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
@@ -516,6 +593,11 @@
           </li>
         </ul>
      </div>
+
+    </div>
+
+    
+
     <script type="text/javascript">
 
       var _gaq = _gaq || [];

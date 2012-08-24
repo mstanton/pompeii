@@ -121,13 +121,7 @@
           plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
           guard on his left leg.</p>-->
     </div>
-
-
     <!-- // END ARTIFACT MODALS -->
-
-
-
-
 
 
     <!-- TWEET MODALS -->
@@ -408,6 +402,18 @@
         </p>
       </div>
     </div>
+
+    <div id="ampitheatreModal" class="modal location">
+      <div class="close"></div>
+      <div class="detail">
+        <h3>Ampitheatre</h3>
+        <p>
+          <!--Pliny the Elder was forced to land on these shores in AD 79. Located just 4.5 miles south of Pompeii, the seaside resort town of 
+          Stabiae was almost completely buried in ash during the eruption of Mount Vesuvius. -->
+        </p>
+      </div>
+    </div>
+
   <!-- // END MODALS -->
 
  

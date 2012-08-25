@@ -1,5 +1,5 @@
 <?php require(dirname(__FILE__)."/lib/php/tweets.php"); ?>
-<?php require(dirname(__FILE__)."/lib/php/storify.php"); ?>
+
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://ogp.me/ns#"
@@ -562,7 +562,41 @@
         <h3>Coverage</h3>
         <p>See what other people are saying about Pompeii, its anniversary and Pliny's account of the eruption at Mount Vesuvius.</p>
         <hr/>
-        <?php //echo getStory(); ?>
+        <div id="coverage_content"></div>
+        <script type="text/javascript">
+          $("#coverage_content").load("lib/php/storify.php?page=1");
+      var url_string_next = "<a id='next_page' href='javascript:void(0);'>Next Page &raquo;</a><br />";
+      var url_string_prev = "<a id='prev_page' href='javascript:void(0);'>&laquo; Previous Page</a><br />";
+      function prev_page() {
+        $("#coverage_content").load("lib/php/storify.php?page=1");
+        $(".coverage_buttons").html(url_string_next);
+        $("#next_page").click(function() {
+          next_page();  
+        });
+      }
+      
+      function next_page() {
+        $("#coverage_content").load("lib/php/storify.php?page=2");
+        $(".coverage_buttons").html(url_string_prev);
+        $("#prev_page").click(function() {
+          prev_page();  
+        });
+      }
+
+      $.ajax({
+        url: 'lib/php/storify.php?page=2',
+        success: function(data) {
+          if(data != "empty"){
+            $(".coverage_buttons").html(url_string_next);
+            $("#next_page").click(function() {
+              next_page();
+            });
+          }
+        }
+      });
+      
+    </script>
+        <div class="coverage_buttons"></div>
       </div>
     </div>
           <div class="clear"></div>
@@ -571,7 +605,7 @@
       <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
       </div>
 
-      <div class="social_buttons" style="position:absolute; bottom:55px; right:-200px;">
+      <div class="social_buttons" style="width:200px; position:absolute; bottom:55px; right:-200px;">
         <ul>
           <li>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>

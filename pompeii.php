@@ -1,5 +1,4 @@
 <?php require(dirname(__FILE__)."/lib/php/tweets.php"); ?>
-
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://ogp.me/ns#"
@@ -14,8 +13,7 @@
     <meta property="og:image" content="http://dayinpompeii.com/images/Pompeii_Share_4.jpg"/>
 	  <meta property="og:site_name" content="A Day In Pompeii"/>
     <meta property="og:description" content="This exhibit is based on the design and presentation developed by the Gulf Coast Exploreum, the Science Museum of Minnesota, the San Diego Natural History Museum, and Discovery Place. Organized by Soprintendenza Speciale per i Beni Archeologici di Napoli e Pompei. Artifact Photo Credit…"/>
-    <meta property="fb:admins" content="63912706"/>               
-                   
+    <meta property="fb:admins" content="63912706"/>                              
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="lib/js/jquery-1.7.2.min.js"><\/script>')</script>
@@ -53,8 +51,6 @@
           plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
           guard on his left leg.</p>
     </div>
-
-
 
     <div id="castfemaleModal" class="modal">
         <div class="close"></div>
@@ -418,7 +414,7 @@
 
 
     <div class="maps_container">
-      <div id="pano" style="height:863px; margin:0 0 0 15px;"></div>
+      <div id="pano" style="height:768px; margin:0 0 0 15px;"></div>
       <div id="map_canvas" style="width:320px; height:220px; position:absolute; bottom:3%; right:1%; z-index:300; border:1px solid #fff;"></div>
     </div> 
 
@@ -448,7 +444,7 @@
       <p>Learn more about this catastrophic event and see hundreds of rare artifacts in person when you visit A Day in Pompeii at the Denver 
         Museum of Nature &amp; Science, September 14th – January 13th.</p> 
 
-      <a href="http://secure1.dmns.org/category/1-exhibitions.aspx" target="_blank">BUY TICKETS</a>
+      <p><a href="http://secure1.dmns.org/category/1-exhibitions.aspx" target="_blank">BUY TICKETS</a></p>
       </div>
 
       <!-- twitter tab -->
@@ -604,8 +600,7 @@
       <div><img src="assets/images/logo.jpg" width="148" height="45" alt="Denver Museum of Nature & Science"/>
       <p style="padding:45px 0 0 0;"><a href="http://www.dmns.org/privacy-policy" target="_blank">Privacy Policy</a>  /  <a href="http://www.dmns.org/conditions-of-use" target="_blank">Conditions of Use</a> Copyright &copy Denver Museum of Nature &amp; Science. All rights reserved.  <a id="link_credit" href="#">Additional Credits.</a></p>
       </div>
-
-      <div class="social_buttons" style="width:200px; position:absolute; bottom:55px; right:-200px;">
+          <div class="social_buttons" style="width:200px; position:absolute; bottom:55px; right:-290px;">
         <ul>
           <li>
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.dayinpompeii.com" data-text="A Day In Pompeii - The Last XXIV Hours" data-via="elderpliny" data-hashtags="pompeii24">Tweet</a>
@@ -625,6 +620,7 @@
           </li>
         </ul>
      </div>
+      
 
     </div>
 

@@ -166,9 +166,9 @@
     </div>
 
 
-    <div id="tweet_6Modal" class="modal tweet_modal"> <!-- tweet_6 -->
+    <div id="tweet_6Modal" class="modal tweet_modal large"> <!-- tweet_6 -->
       <div class="close"></div>
-      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg"/>
+      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg" style="margin:0 20px 0 0;"/>
       <div class="detail">
         <h3>Pliny the Younger (AD 61-113)</h3>
         <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 

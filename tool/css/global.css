@@ -1,0 +1,8 @@
+img { min-height:100%; }
+
+
+.overlay { width:100%; min-height:100%; background:#000; position:absolute; top:0; left:0;  z-index:9998; display:none; }
+
+#cafeModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+#bankModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }
+#busModal { width:500px; height:500px;  position:absolute; top:10%;  left:50%; margin:0 -250px 0 -250px; z-index:99999; display:none; }

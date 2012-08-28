@@ -44,23 +44,27 @@ h3 { font-size:24px; color:#cfb348; }
 #about-tab a { display:block; width:48px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #about-tab.active { background:url('../assets/buttons/btn_about_ACTIVE.png') no-repeat; }
 #about-tab.active a { color:#000; }
+#about-tab.active a:hover { color:#bab2a9; }
 
 #pliny-tab { width:96px; height:36px; background:url('../assets/buttons/btn_pliny_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
 #pliny-tab a { display:block; width:96px; height:36px; margin:0 0 0 7px; color:#bab2a9; font-weight:bold; }
 #pliny-tab.active { color:#000; background:url('../assets/buttons/btn_pliny_ACTIVE.png') no-repeat 0px 1px; }
-#pliny-tab.active a { color:#000; } 
+#pliny-tab.active a { color:#000; }
+#pliny-tab.active a:hover { color:#bab2a9; } 
 
 
 #locations-tab { width:69px; height:36px; background:url('../assets/buttons/btn_location_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px;}
 #locations-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #locations-tab.active { background:url('../assets/buttons/btn_location_ACTIVE.png') no-repeat 0px 1px;}
 #locations-tab.active a { color:#000; }
+#locations-tab.active a:hover { color:#bab2a9; }
 
 
 #coverage-tab { width:69px; height:36px; background:url('../assets/buttons/btn_coverage_OFF.png') no-repeat; cursor:pointer; padding:15px 0 0 0px; }
 #coverage-tab a { display:block; width:69px; height:36px; margin:0 0 0 10px; color:#bab2a9; font-weight:bold; }
 #coverage-tab.active { background:url('../assets/buttons/btn_coverage_ACTIVE.png') no-repeat 0px 1px; }
 #coverage-tab.active a { color:#000; }
+#coverage-tab.active a:hover { color:#bab2a9; }
 
 #about-tab:hover { width:48px; height:36px; background:url('../assets/buttons/btn_about_OVER.png') no-repeat; cursor:pointer; }
 #pliny-tab:hover { width:96px; height:36px; background:url('../assets/buttons/btn_pliny_OVER.png') no-repeat; cursor:pointer; }

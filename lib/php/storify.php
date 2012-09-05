@@ -52,7 +52,7 @@ function parseTwitterDate($tdate) {
     if ($diff <= 129600) {return "1 day ago";}
     if ($diff < 604800) {return round($diff / 86400) . " days ago";}
     if ($diff <= 777600) {return "1 week ago";}
-    return "on " + $system_date;
+    return "on " . date("F jS Y H:i:s", $tdate);
 }
 
 

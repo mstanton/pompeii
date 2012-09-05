@@ -45,11 +45,11 @@
 
     <div id="helmetModal" class="modal">
         <div class="close"></div>
-        <h3>Gladiator's Helmet</h3>
-        <img src="assets/modal/helmet.jpg" width="406" height="566"/>
-        <p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
+        <img src="assets/modal/helmet.jpg" width="406" height="566" style="margin:0px 55px 10px 0px;"/>
+        <h3 style="margin:0 0 15px 0;">Gladiator's Helmet</h3>
+        <div style="padding:0 50px 0 0;"><p>This helmet was worn at Pompeii’s amphitheater by a heavily armored gladiator called a murmillo.  Missing from the crest is the splendid 
           plume of feathers or horsehair.  The murmillo also carried a tall shield and wore an arm guard on his right arm, a leg guard and short skin 
-          guard on his left leg.</p>
+          guard on his left leg.</p></div>
     </div>
 
     <div id="castfemaleModal" class="modal">

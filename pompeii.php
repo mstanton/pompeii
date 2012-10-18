@@ -559,39 +559,7 @@
         <p>See what other people are saying about Pompeii, its anniversary and Pliny's account of the eruption at Mount Vesuvius.</p>
         <hr/>
         <div id="coverage_content"></div>
-        <script type="text/javascript">
-          $("#coverage_content").load("lib/php/storify.php?page=1");
-      var url_string_next = "<a id='next_page' href='javascript:void(0);'>Next Page &raquo;</a><br />";
-      var url_string_prev = "<a id='prev_page' href='javascript:void(0);'>&laquo; Previous Page</a><br />";
-      function prev_page() {
-        $("#coverage_content").load("lib/php/storify.php?page=1");
-        $(".coverage_buttons").html(url_string_next);
-        $("#next_page").click(function() {
-          next_page();  
-        });
-      }
-      
-      function next_page() {
-        $("#coverage_content").load("lib/php/storify.php?page=2");
-        $(".coverage_buttons").html(url_string_prev);
-        $("#prev_page").click(function() {
-          prev_page();  
-        });
-      }
 
-      $.ajax({
-        url: 'lib/php/storify.php?page=2',
-        success: function(data) {
-          if(data != "empty"){
-            $(".coverage_buttons").html(url_string_next);
-            $("#next_page").click(function() {
-              next_page();
-            });
-          }
-        }
-      });
-      
-    </script>
         <div class="coverage_buttons"></div>
       </div>
     </div>

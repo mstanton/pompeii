@@ -1,2 +1,6 @@
 
 *.psd
+
+lib/.DS_Store
+
+*.bak

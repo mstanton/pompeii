@@ -90,7 +90,7 @@ h3 { font-size:24px; color:#cfb348; }
 .twitter { padding:0 25px 0 15px; width:262px; overflow:auto;   }
 
 .tweets_container { margin:10px 0 0 0; }
-.tweets_container li { padding:0 0 10px 0;  cursor:pointer; }
+.tweets_container li { padding:0 0 10px 0;   } /* cursor:pointer; */
 .twitter .pliny .pliny_detail { width:150px; float:left; }
 .twitter .pliny .pliny_detail h3 { margin:0 0 5px 0; font-size:16px;}
 .twitter .pliny .pliny_detail p { font-size:11px; margin:0 0 10px 0; line-height:14px;  }
@@ -104,13 +104,12 @@ h3 { font-size:24px; color:#cfb348; }
 
 
 /* footer */
-.footer { width:750px; height:115px; color:#fff; position:relative; top:-30px; left:0; background:#000; }
+.footer { width:750px; height:110px; color:#fff; position:relative; top:-30px; left:0; background:#000; }
 .footer img { float:left;  margin:10px 10px 0 7px;}
 .footer p { margin:37px 0 0 0;}
 .footer { font-size:10px; }
 .footer a { color:#fff; text-decoration:none; }
 
-.social_buttons { }
 .social_buttons li { float:left; }
 
 

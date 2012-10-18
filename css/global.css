@@ -17,11 +17,12 @@ h3 { font-size:24px; color:#cfb348; }
 .modal .detail { float:left; width:459px; } 
 .modal .close { width:20px; height:19px; background:url('../assets/buttons/btn_close.png') no-repeat; cursor: pointer; display:block; float:right; }
 
-.modal.location { width:560px; position:absolute; top:25%; left:50%; margin:0 -280px 0 -280px; z-index:99999; display:none;}
-.modal.location p { font-size:14px; line-height:18px;}
+.modal.location { width:560px; position:absolute; top:25%; left:50%; margin:0 -280px 0 -280px; z-index:99999; display:none; }
 
-.tweet_modal { width:700px; margin:0 -350px 0 -350px; }
-.tweet_modal.large { width:908px; margin:0 -454px 0 -454px;}
+.modal.location p { font-size:14px; line-height:18px; }
+
+.tweet_modal { width:auto; height:auto; max-width:700px; margin:0 -350px 0 -350px; }
+.tweet_modal.large { width:auto; max-width:908px; margin:0 -454px 0 -454px;}
 .tweet_modal h3 { margin:0 0 0 0; }
 .tweet_modal img { margin:0 0 15px 0; }
 .tweet_modal .detail {}
@@ -81,6 +82,7 @@ h3 { font-size:24px; color:#cfb348; }
 
 .locations { display:none; width:300px; }
 .locations li  { margin:0px 0 0px 0; height:110px; cursor:pointer; }
+.locations li.active img { border:1px solid #777; }
 .locations a { color:#fff; font-size:11px; }
 .locations .detail { padding:0 30px 0 10px; }
 .locations .detail h3 { margin:0 0 7px 0; }
@@ -90,13 +92,13 @@ h3 { font-size:24px; color:#cfb348; }
 .twitter { padding:0 25px 0 15px; width:262px; overflow:auto;   }
 
 .tweets_container { margin:10px 0 0 0; }
-.tweets_container li { padding:0 0 10px 0;   } /* cursor:pointer; */
+.tweets_container li { padding:0 0 10px 0;   }
 .twitter .pliny .pliny_detail { width:150px; float:left; }
 .twitter .pliny .pliny_detail h3 { margin:0 0 5px 0; font-size:16px;}
 .twitter .pliny .pliny_detail p { font-size:11px; margin:0 0 10px 0; line-height:14px;  }
 .twitter .pliny .pliny_detail a { color:#fff; }
 
-.modal_link { cursor:pointer; }
+.modal_link { cursor:pointer; } /* adds pointer to tweets that have modal link */
 
 
 

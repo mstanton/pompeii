@@ -37,8 +37,8 @@
     <!-- ARTIFACT MODALS -->
     <div id="aphroModal" class="modal">
         <div class="close"></div>
-        <h3>The Statue of Aphrodite</h3>
         <img src="assets/modal/statue_aphrodite.jpg" width="406" height="565"/>
+        <h3>The Statue of Aphrodite</h3>
         <p>The goddess Aphrodite, also called Venus, is shown preparing for a bath. Her pose echoes that of a famous statue of the goddess by the Greek sculptor Praxiteles. 
           Her left foot rests on the wings of a cupid and her left arm on a small statue, perhaps of a priestess or devotee.</p>
     </div>
@@ -53,69 +53,69 @@
     </div>
 
     <div id="castfemaleModal" class="modal">
-        <div class="close"></div>
-        <h3>Cast of a Woman</h3>
+        <div class="close"></div> 
         <img src="assets/modal/cast_women.jpg"/>
+        <h3>Cast of a Woman</h3>
         <p></p>
     </div>
 
     <div id="dishesModal" class="modal">
         <div class="close"></div>
-        <h3>Pots and Serving Dishes </h3>
         <img src="assets/modal/dishes.jpg"/>
+        <h3>Pots and Serving Dishes </h3>
         <p>Examples of cookware and dishes commonly found in Pompeii’s kitchens.</p>
     </div>
 
     <div id="earringsModal" class="modal">
-        <div class="close"></div>
-        <h3>Two Pairs of Earrings </h3>
+        <div class="close"></div>  
         <img src="assets/modal/earrings.jpg"/>
+        <h3>Two Pairs of Earrings </h3>
         <p>These earrings were worn by Pompeii’s women. The sphere-shaped earrings on the right are decorated with close-embossed dotting, 
           a style that was well known in the Vesuvius area. </p>
     </div>
 
     <div id="funeralModal" class="modal">
-        <div class="close"></div>
-        <h3>Funeral Statue of a Woman</h3>
+        <div class="close"></div>   
         <img src="assets/modal/funeral_statue.jpg"/>
+        <h3>Funeral Statue of a Woman</h3>
         <p>This larger-than-life statue of a Roman matron is typical of the funerary portraits that adorned Pompeian tombs. The woman is wearing a 
           stola pulled over her head; her expression and posture represent the pious, modest and woman.</p>
     </div>
 
     <div id="venusshellModal" class="modal">
         <div class="close"></div>
-        <h3>House of Venus In A Shell</h3>
         <img src="assets/modal/house_of_venus.jpg"/>
+        <h3>House of Venus In A Shell</h3>
         <p>This is a painting of Venus lying in a conch shell with a nymph to either side of her. 
           The nymph on the left side is shown riding a dolphin while the other supports the shell. </p>
     </div>
 
     <div id="shippingModal" class="modal">
-        <div class="close"></div>
-        <h3>Large Shipping Amphorae</h3>
+        <div class="close"></div>       
         <img src="assets/modal/large_shipping.jpg"/>
+        <h3>Large Shipping Amphorae</h3>
         <p>These four shipping containers, or amphorae, are typical Pompeian Red Ware. The interior of each was coated with pitch to seal the otherwise porous pottery. 
           A cork stopper would have closed the top opening. </p>
     </div>
 
     <div id="malebustModal" class="modal">
         <div class="close"></div>
-        <h3>Statue of Baccus</h3>
         <img src="assets/modal/male_bust.jpg"/>
+        <h3>Statue of Baccus</h3>
         <p>Bacchus was the Roman god of wine and drink, equated with the Greek god Dionysus. This statue represents the god as a youth. The 
           large eyes are rendered in ivory and a brown-colored glass paste. </p>
     </div>
 
     <div id="sittingmanModal" class="modal">
         <div class="close"></div>
-        <h3>Sitting Man</h3>
         <img src="assets/modal/sitting_man.jpg"/>
+        <h3>Sitting Man</h3>
         <p>A Pompeian man frozen in his last moments. He was found sitting with his back to the wall and his knees drawn up. </p>
     </div>
     <div id="femalebustModal" class="modal">
         <div class="close"></div>
-        <h3>Bust of a Woman</h3>
         <img src="assets/modal/woman_bust.jpg"/>
+        <h3>Bust of a Woman</h3>
         <p>This bust illustrates one of the simpler hairstyles worn by Pompeian women. More elaborate styles featured very high and full crowns of curls. 
           Women often added hairpieces to achieve these fashion dictates. </p>
     </div>
@@ -166,9 +166,9 @@
     </div>
 
 
-    <div id="tweet_6Modal" class="modal tweet_modal large"> <!-- tweet_6 -->
+    <div id="tweet_6Modal" class="modal large"> <!-- tweet_6 -->
       <div class="close"></div>
-      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg" style="margin:0 20px 0 0;"/>
+      <img src="assets/twitter/Pompeii_modal_0000_plinyYounger.jpg"/>
       <div class="detail">
         <h3>Pliny the Younger (AD 61-113)</h3>
         <p>Roman historian, author and magistrate. Raised and educated by his uncle Pliny the Elder, he was witness to the eruption of Mount Vesuvius and author of two detailed letters recounting the day's events. 
@@ -180,7 +180,7 @@
     </div>
 
     <div id="tweet_9Modal" class="modal tweet_modal large"> <!-- tweet 9 -->
-      <div class="close"></div>
+      <div class="close" style="position:relative; right:-240px; top:-7px;"></div>
       <img src="assets/twitter/Pompeii_modal_0005_plinysRoute.jpg" width="908" height="437"/>
       <div class="detail">
         <h3>Pliny the Elder's Route </h3>
@@ -217,7 +217,7 @@
 
 
     <div id="tweet_22Modal" class="modal tweet_modal large"> 
-      <div class="close"></div>
+      <div class="close" style="position:relative; right:-240px; top:-7px;"></div>
       <img src="assets/twitter/Pompeii_modal_0006_blackedOut.jpg" width="908" height="437"/>
       <div class="detail">
         <h3>Streets of Stabiae</h3>
@@ -229,7 +229,7 @@
     </div>
 
     <div id="tweet_25Modal" class="modal tweet_modal large"> 
-      <div class="close"></div>
+      <div class="close" style="position:relative; right:-240px; top:-7px;"></div>
       <img src="assets/twitter/Pompeii_modal_0007_ashMap.gif" width="908" height="437"/>
       <div class="detail">
         <h3>Ash Map of Eruption</h3>

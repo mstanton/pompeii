@@ -5,9 +5,7 @@ h3 { font-size:24px; color:#cfb348; }
 .clear { clear:both; }
 
 #overlay { width:100%; min-height:100%; background:#000; position:fixed; top:0; left:0;  z-index:9998; 
-	filter: alpha(opacity=70); /* internet explorer */
-	opacity:0.70; 
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=70)"; /*IE8*/
+	
  display:none; }
 
 /* MAIN LAYOUT */
